@@ -1,0 +1,84 @@
+ABIDE2 Processing Notes
+=======================
+Date: 2025-08-15
+
+IMPORTANT: Missing participants.tsv files
+------------------------------------------
+The following 3 ABIDE2 sites do not have participants.tsv files and were excluded 
+from the co-phenotype file:
+
+1. ABIDEII-ETHZ_1
+2. ABIDEII-UCLA_Long  
+3. ABIDEII-UPSM_Long
+
+These sites have a different directory structure with only subject folders (sub-XXXXX)
+and no participants.tsv file at the root level. As a result:
+
+- They are NOT included in /home/yibei/ABIDE2_Cophenotype.csv
+- They may need special handling for bids2nidm processing
+- The phenotypic data mapping (abide2_variables_to_terms_complete.json) may not work for these sites
+
+Successfully Processed Sites (16 total)
+----------------------------------------
+- ABIDEII-BNI_1: 58 participants
+- ABIDEII-EMC_1: 54 participants
+- ABIDEII-GU_1: 106 participants
+- ABIDEII-IP_1: 56 participants
+- ABIDEII-IU_1: 40 participants
+- ABIDEII-KKI_1: 211 participants
+- ABIDEII-KUL_3: 28 participants
+- ABIDEII-NYU_1: 78 participants
+- ABIDEII-NYU_2: 27 participants
+- ABIDEII-OHSU_1: 93 participants
+- ABIDEII-ONRC_2: 59 participants
+- ABIDEII-SDSU_1: 58 participants
+- ABIDEII-TCD_1: 42 participants
+- ABIDEII-UCD_1: 32 participants
+- ABIDEII-UCLA_1: 32 participants
+- ABIDEII-USM_1: 33 participants
+
+Total: 1007 participants with complete phenotypic data
+
+Files Created
+-------------
+1. /home/yibei/abide2_process_site.py - Script to process individual ABIDE2 sites
+2. /home/yibei/abide2_run_all.py - Script to process all sites in parallel
+3. /home/yibei/abide2_sites.txt - List of all 19 ABIDE2 site names
+4. /home/yibei/ABIDE2_Cophenotype.csv - Combined phenotype data (1007 participants)
+5. /home/yibei/abide2_variables_to_terms_complete.json - JSON mapping for phenotypic variables
+6. /home/yibei/create_abide2_copheno.py - Script to generate co-phenotype CSV
+
+Notes
+-----
+- The ABIDEII-GU_1 site had encoding issues (non-UTF8 characters) but was successfully 
+  processed using latin1 encoding
+- The co-phenotype CSV contains 348 columns of phenotypic data
+- Age range: 5.13 to 64.00 years (mean: 14.87, std: 9.40)
+- Sex distribution: 759 males (1), 248 females (2)
+- Diagnosis: 474 ASD (1), 533 TD (2)
+
+Processing Errors (2025-08-15)
+------------------------------
+The following sites cannot be processed with bidsmri2nidm due to data issues:
+
+1. ABIDEII-GU_1: UnicodeDecodeError in participants.tsv
+   - Error: 'utf-8' codec can't decode byte 0xa0 in position 7971
+   - The participants.tsv file contains invalid UTF-8 characters
+   - Would need manual cleaning of the TSV file to fix
+
+2. ABIDEII-NYU_1: Missing bvec files
+   - Error: IndexError in bids_layout.get_bvec() - list index out of range
+   - The BIDS dataset is incomplete, missing required diffusion bvec files
+   
+3. ABIDEII-NYU_2: Missing bvec files  
+   - Same error as NYU_1 - incomplete BIDS dataset
+
+These sites have been commented out in run_all_abide2.sh until the underlying data issues are resolved.
+
+Script Updates (2025-08-15)
+---------------------------
+- Fixed ABIDEII-ETH_1 → ABIDEII-ETHZ_1 (correct directory name)
+- Created bash versions of processing scripts to match ABIDE1 format
+- Simplified all process_*.sh scripts to accept single site parameter only
+- Removed get_sites() functions and --all options from all scripts
+- Updated run_all_*.sh scripts to use simplified interface

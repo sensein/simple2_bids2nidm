@@ -1,0 +1,17 @@
+# Logs
+logs/
+*.log
+
+# Claude-specific
+.claude/
+CLAUDE.md
+
+# Backup files
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store

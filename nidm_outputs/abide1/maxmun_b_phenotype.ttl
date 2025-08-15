@@ -1,0 +1,2140 @@
+@prefix bids: <http://bids.neuroimaging.io/> .
+@prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dicom: <http://neurolex.org/wiki/Category/DICOM_term/> .
+@prefix ilx: <http://uri.interlex.org/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm_1: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix onli: <http://neurolog.unice.fr/ontoneurolog/v3.0/instrument.owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix term_0010_1022: <http://uri.interlex.org/dicom/uris/terms/0010_1022> .
+@prefix term_BehavioralInstrument: <http://purl.org/nidash/nidm#BehavioralInstrument> .
+@prefix term_CAO_00910: <http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00910> .
+@prefix term_CAO_00962: <http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00962> .
+@prefix term_Diagnosis: <http://ncitt.ncit.nih.gov/Diagnosis> .
+@prefix term_M0000344: <http://id.nlm.nih.gov/mesh/2018/M0000344> .
+@prefix term_PATO_0002201: <http://purl.obolibrary.org/obo/PATO_0002201> .
+@prefix term_ilx_0100400: <http://uri.interlex.org/ilx_0100400> .
+@prefix term_ilx_0101292: <http://uri.interlex.org/base/ilx_0101292> .
+@prefix term_ilx_0739359: <http://uri.interlex.org/base/ilx_0739359> .
+@prefix term_ilx_0739363: <http://uri.interlex.org/base/ilx_0739363> .
+@prefix term_ilx_0739365: <http://uri.interlex.org/base/ilx_0739365> .
+@prefix term_src_subject_id: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/src_subject_id> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:ADI_RRB_TOTAL_C_39e194u a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_RRB_TOTAL_C"^^xsd:string ;
+    dct:description "Restricted, Repetitive, and Stereotyped Patterns of Behavior Subscore (C) Total for Autism Diagnostic Interview-Revised"^^xsd:string ;
+    nidm_1:sourceVariable "ADI_RRB_TOTAL_C"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADI_RRB_TOTAL_C_e613gv a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_RRB_TOTAL_C" ;
+    dct:description "Restricted, Repetitive, and Stereotyped Patterns of Behavior Subscore (C) Total for Autism Diagnostic Interview-Revised" ;
+    nidm_1:sourceVariable "ADI_RRB_TOTAL_C" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADI_R_ONSET_TOTAL_D_16sck0t a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_ONSET_TOTAL_D" ;
+    dct:description "Abnormality of Development Evident at or Before 36 Months Subscore (D) Total for Autism Diagnostic Interview-Revised" ;
+    nidm_1:sourceVariable "ADI_R_ONSET_TOTAL_D" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADI_R_ONSET_TOTAL_D_1qgt2e2 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_ONSET_TOTAL_D"^^xsd:string ;
+    dct:description "Abnormality of Development Evident at or Before 36 Months Subscore (D) Total for Autism Diagnostic Interview-Revised"^^xsd:string ;
+    nidm_1:sourceVariable "ADI_R_ONSET_TOTAL_D"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADI_R_RSRCH_RELIABLE_18blf4c a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_RSRCH_RELIABLE" ;
+    dct:description "Was ADI scored and administered by research reliable personnel?" ;
+    nidm_1:sourceVariable "ADI_R_RSRCH_RELIABLE" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADI_R_RSRCH_RELIABLE_341n10r a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_RSRCH_RELIABLE"^^xsd:string ;
+    dct:description "Was ADI scored and administered by research reliable personnel?"^^xsd:string ;
+    nidm_1:sourceVariable "ADI_R_RSRCH_RELIABLE"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADI_R_SOCIAL_TOTAL_A_1fjfk01 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_SOCIAL_TOTAL_A" ;
+    dct:description "Reciprocal Social Interaction Subscore (A)Total for Autism Diagnostic Interview-Revised" ;
+    nidm_1:sourceVariable "ADI_R_SOCIAL_TOTAL_A" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADI_R_SOCIAL_TOTAL_A_2k6d347 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_SOCIAL_TOTAL_A"^^xsd:string ;
+    dct:description "Reciprocal Social Interaction Subscore (A)Total for Autism Diagnostic Interview-Revised"^^xsd:string ;
+    nidm_1:sourceVariable "ADI_R_SOCIAL_TOTAL_A"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADI_R_VERBAL_TOTAL_BV_11ams6f a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_VERBAL_TOTAL_BV" ;
+    dct:description "Abnormalities in Communication Subscore (B) Total for Autism Diagnostic Interview-Revised" ;
+    nidm_1:sourceVariable "ADI_R_VERBAL_TOTAL_BV" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADI_R_VERBAL_TOTAL_BV_2ms3m15 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADI_R_VERBAL_TOTAL_BV"^^xsd:string ;
+    dct:description "Abnormalities in Communication Subscore (B) Total for Autism Diagnostic Interview-Revised"^^xsd:string ;
+    nidm_1:sourceVariable "ADI_R_VERBAL_TOTAL_BV"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_COMM_3ue9ev7 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_COMM" ;
+    dct:description "Communication total subscore of the classic ADOS" ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_COMM" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_COMM_ckvacd a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_COMM"^^xsd:string ;
+    dct:description "Communication total subscore of the classic ADOS"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_COMM"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_GOTHAM_RRB_1cufrb4 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_RRB"^^xsd:string ;
+    dct:description "Restricted and Repetitive Behaviors Total Subscore for Gotham Algorithm of the ADOS"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_RRB"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_GOTHAM_RRB_38h504l a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_RRB" ;
+    dct:description "Restricted and Repetitive Behaviors Total Subscore for Gotham Algorithm of the ADOS" ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_RRB" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_GOTHAM_SEVERITY_16euofv a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_SEVERITY" ;
+    dct:description "Individually calibrated severity score for Gotham Algorithm of the ADOS" ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_SEVERITY" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_GOTHAM_SEVERITY_374m2ib a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_SEVERITY"^^xsd:string ;
+    dct:description "Individually calibrated severity score for Gotham Algorithm of the ADOS"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_SEVERITY"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_GOTHAM_SOCAFFECT_2tddcs1 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_SOCAFFECT"^^xsd:string ;
+    dct:description "Social affect total subscore for Gotham Algorithm of the ADOS"^^xsd:string ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_SOCAFFECT"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_GOTHAM_SOCAFFECT_afbl0t a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_SOCAFFECT" ;
+    dct:description "Social affect total subscore for Gotham Algorithm of the ADOS" ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_SOCAFFECT" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_GOTHAM_TOTAL_1sng8np a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_TOTAL" ;
+    dct:description "Social Affect Total + Restricxted and Repetitive Behaviors Total" ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_TOTAL" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_GOTHAM_TOTAL_3hrnrne a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_GOTHAM_TOTAL"^^xsd:string ;
+    dct:description "Social Affect Total + Restricxted and Repetitive Behaviors Total"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_GOTHAM_TOTAL"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_MODULE_1qm3aec a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_MODULE" ;
+    dct:description "Autism Diagnostic Observation Schedule Module" ;
+    nidm_1:sourceVariable "ADOS_MODULE" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_MODULE_3git99l a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_MODULE"^^xsd:string ;
+    dct:description "Autism Diagnostic Observation Schedule Module"^^xsd:string ;
+    nidm_1:sourceVariable "ADOS_MODULE"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_RSRCH_RELIABLE_1em44p3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_RSRCH_RELIABLE" ;
+    dct:description "Was ADOS scored and administered by research reliable personnel?" ;
+    nidm_1:sourceVariable "ADOS_RSRCH_RELIABLE" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_RSRCH_RELIABLE_34qh1g3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_RSRCH_RELIABLE"^^xsd:string ;
+    dct:description "Was ADOS scored and administered by research reliable personnel?"^^xsd:string ;
+    nidm_1:sourceVariable "ADOS_RSRCH_RELIABLE"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_SOCIAL_38pkjeg a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_SOCIAL"^^xsd:string ;
+    dct:description "Social total subscore of the classic ADOS"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_SOCIAL"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_SOCIAL_3tjbd3t a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_SOCIAL" ;
+    dct:description "Social total subscore of the classic ADOS" ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_SOCIAL" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_STEREO_BEHAV_18dfgm7 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_STEREO_BEHAV"^^xsd:string ;
+    dct:description "Stereotyped behaviors and restricted interests total subscore of the classic ADOSS"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_STEREO_BEHAV"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:ADOS_STEREO_BEHAV_3i3n64p a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_STEREO_BEHAV" ;
+    dct:description "Stereotyped behaviors and restricted interests total subscore of the classic ADOSS" ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_STEREO_BEHAV" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_TOTAL_19nu08h a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_TOTAL" ;
+    dct:description "Classic Total ADOS Score (Communication subscore + Social interaction subscore)" ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_TOTAL" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:ADOS_TOTAL_3jsgd0v a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "ADOS_TOTAL"^^xsd:string ;
+    dct:description "Classic Total ADOS Score (Communication subscore + Social interaction subscore)"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00962: ;
+    nidm_1:sourceVariable "ADOS_TOTAL"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:AGE_AT_MPRAGE_22eaoiv a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "AGE_AT_MPRAGE" ;
+    dct:description "Age at anatomical scan in years" ;
+    nidm_1:sourceVariable "AGE_AT_MPRAGE" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:AGE_AT_MPRAGE_2caeq2h a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "AGE_AT_MPRAGE"^^xsd:string ;
+    dct:description "Age at anatomical scan in years"^^xsd:string ;
+    nidm_1:sourceVariable "AGE_AT_MPRAGE"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:AGE_AT_SCAN_1n7pkj2 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "age at scan" ;
+    dct:description "Age at time of scan in years" ;
+    nidm_1:isAbout term_ilx_0100400: ;
+    nidm_1:sourceVariable "AGE_AT_SCAN" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:AGE_AT_SCAN_sp10mb a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "age at scan"^^xsd:string ;
+    dct:description "Age at time of scan in years"^^xsd:string ;
+    nidm_1:isAbout term_ilx_0100400: ;
+    nidm_1:sourceVariable "AGE_AT_SCAN"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:AQ_TOTAL_1u0c4aa a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "AQ_TOTAL"^^xsd:string ;
+    dct:description "Total raw score of the autism quotient"^^xsd:string ;
+    nidm_1:sourceVariable "AQ_TOTAL"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:AQ_TOTAL_28e56u9 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "AQ_TOTAL" ;
+    dct:description "Total raw score of the autism quotient" ;
+    nidm_1:sourceVariable "AQ_TOTAL" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:BMI_36rj13t a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "BMI"^^xsd:string ;
+    dct:description "Body mass index"^^xsd:string ;
+    nidm_1:isAbout term_0010_1022: ;
+    nidm_1:sourceVariable "BMI"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:BMI_3jjtclr a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "BMI" ;
+    dct:description "Body mass index" ;
+    nidm_1:isAbout term_0010_1022: ;
+    nidm_1:sourceVariable "BMI" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:COMORBIDITY_22kfqgu a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "COMORBIDITY"^^xsd:string ;
+    dct:description "Any other comorbidities?"^^xsd:string ;
+    nidm_1:sourceVariable "COMORBIDITY"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:COMORBIDITY_39o03o8 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "COMORBIDITY" ;
+    dct:description "Any other comorbidities?" ;
+    nidm_1:sourceVariable "COMORBIDITY" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:CURRENT_MED_STATUS_1hv54uf a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "CURRENT_MED_STATUS" ;
+    dct:description "Currently taking medications?" ;
+    nidm_1:sourceVariable "CURRENT_MED_STATUS" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:CURRENT_MED_STATUS_3jhl88k a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "CURRENT_MED_STATUS"^^xsd:string ;
+    dct:description "Currently taking medications?"^^xsd:string ;
+    nidm_1:sourceVariable "CURRENT_MED_STATUS"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:DSM_IV_TR_2uieue5 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "DSM_IV_TR" ;
+    dct:description "DSM-IV-TR PDD Category" ;
+    nidm_1:isAbout term_Diagnosis: ;
+    nidm_1:sourceVariable "DSM_IV_TR" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:DSM_IV_TR_3s1uipu a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "DSM_IV_TR"^^xsd:string ;
+    dct:description "DSM-IV-TR PDD Category"^^xsd:string ;
+    nidm_1:isAbout term_Diagnosis: ;
+    nidm_1:sourceVariable "DSM_IV_TR"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:DX_GROUP_2ftcrn7 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "diagnostic group"^^xsd:string ;
+    dct:description "diagnosis"^^xsd:string ;
+    nidm_1:isAbout term_Diagnosis: ;
+    nidm_1:sourceVariable "DX_GROUP"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:DX_GROUP_pibmvh a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "diagnostic group" ;
+    dct:description "diagnosis" ;
+    nidm_1:isAbout term_Diagnosis: ;
+    nidm_1:sourceVariable "DX_GROUP" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:EYE_STATUS_AT_SCAN_33h63sq a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "EYE_STATUS_AT_SCAN"^^xsd:string ;
+    dct:description "Eye status during rest scan"^^xsd:string ;
+    nidm_1:sourceVariable "EYE_STATUS_AT_SCAN"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:EYE_STATUS_AT_SCAN_3uppelb a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "EYE_STATUS_AT_SCAN" ;
+    dct:description "Eye status during rest scan" ;
+    nidm_1:sourceVariable "EYE_STATUS_AT_SCAN" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:FILE_ID_2jrvd9m a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "file identifier" ;
+    dct:description "filename" ;
+    nidm_1:sourceVariable "FILE_ID" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:FIQ_TEST_TYPE_1kdihag a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "FIQ_TEST_TYPE"^^xsd:string ;
+    dct:description "IQ test administered for full scale"^^xsd:string ;
+    nidm_1:sourceVariable "FIQ_TEST_TYPE"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:FIQ_TEST_TYPE_1qu2t14 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "FIQ_TEST_TYPE" ;
+    dct:description "IQ test administered for full scale" ;
+    nidm_1:sourceVariable "FIQ_TEST_TYPE" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:FIQ_pc649q a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "FIQ"^^xsd:string ;
+    dct:description "Full IQ Standard Score"^^xsd:string ;
+    nidm_1:isAbout term_ilx_0739365: ;
+    nidm_1:sourceVariable "FIQ"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:FIQ_te5c9h a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "FIQ" ;
+    dct:description "Full IQ Standard Score" ;
+    nidm_1:isAbout term_ilx_0739365: ;
+    nidm_1:sourceVariable "FIQ" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:HANDEDNESS_CATEGORY_1mt8b48 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "handedness" ;
+    dct:description "subject handedness category" ;
+    nidm_1:isAbout term_PATO_0002201: ;
+    nidm_1:sourceVariable "HANDEDNESS_CATEGORY" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:HANDEDNESS_CATEGORY_2jk2o1n a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "handedness"^^xsd:string ;
+    dct:description "subject handedness category"^^xsd:string ;
+    nidm_1:isAbout term_PATO_0002201: ;
+    nidm_1:sourceVariable "HANDEDNESS_CATEGORY"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:HANDEDNESS_SCORES_2rpgetv a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "HANDEDNESS_SCORES" ;
+    dct:description "subject handedness scores" ;
+    nidm_1:isAbout term_PATO_0002201: ;
+    nidm_1:sourceVariable "HANDEDNESS_SCORES" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:HANDEDNESS_SCORES_2t52ulb a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "HANDEDNESS_SCORES"^^xsd:string ;
+    dct:description "subject handedness scores"^^xsd:string ;
+    nidm_1:isAbout term_PATO_0002201: ;
+    nidm_1:sourceVariable "HANDEDNESS_SCORES"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:MEDICATION_NAME_14joir4 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "MEDICATION_NAME"^^xsd:string ;
+    dct:description "Active ingredient of any current psychoactive medications"^^xsd:string ;
+    nidm_1:sourceVariable "MEDICATION_NAME"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:MEDICATION_NAME_1k7h29n a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "MEDICATION_NAME" ;
+    dct:description "Active ingredient of any current psychoactive medications" ;
+    nidm_1:sourceVariable "MEDICATION_NAME" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:OFF_STIMULANTS_AT_SCAN_2sfu3d a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "OFF_STIMULANTS_AT_SCAN"^^xsd:string ;
+    dct:description "Off stimulants 24 hours prior to scan?"^^xsd:string ;
+    nidm_1:sourceVariable "OFF_STIMULANTS_AT_SCAN"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:OFF_STIMULANTS_AT_SCAN_3uvgndr a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "OFF_STIMULANTS_AT_SCAN" ;
+    dct:description "Off stimulants 24 hours prior to scan?" ;
+    nidm_1:sourceVariable "OFF_STIMULANTS_AT_SCAN" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:PIQ_3do1hch a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "PIQ" ;
+    dct:description "performance intelligence score" ;
+    nidm_1:isAbout term_ilx_0739363: ;
+    nidm_1:sourceVariable "PIQ" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:PIQ_3pq2kt8 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "PIQ"^^xsd:string ;
+    dct:description "performance intelligence score"^^xsd:string ;
+    nidm_1:isAbout term_ilx_0739363: ;
+    nidm_1:sourceVariable "PIQ"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:PIQ_TEST_TYPE_17ldg7d a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "PIQ_TEST_TYPE"^^xsd:string ;
+    dct:description "IQ test administered for performance IQ"^^xsd:string ;
+    nidm_1:sourceVariable "PIQ_TEST_TYPE"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:PIQ_TEST_TYPE_m7hlcj a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "PIQ_TEST_TYPE" ;
+    dct:description "IQ test administered for performance IQ" ;
+    nidm_1:sourceVariable "PIQ_TEST_TYPE" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SCQ_TOTAL_3e093c4 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SCQ_TOTAL"^^xsd:string ;
+    dct:description "Social communication questionaire total"^^xsd:string ;
+    nidm_1:sourceVariable "SCQ_TOTAL"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SCQ_TOTAL_l72nja a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SCQ_TOTAL" ;
+    dct:description "Social communication questionaire total" ;
+    nidm_1:sourceVariable "SCQ_TOTAL" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SEX_28dvfs7 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SEX"^^xsd:string ;
+    dct:description "subject gender"^^xsd:string ;
+    nidm_1:isAbout term_ilx_0101292: ;
+    nidm_1:sourceVariable "SEX"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SEX_2ve80sl a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SEX" ;
+    dct:description "subject gender" ;
+    nidm_1:isAbout term_ilx_0101292: ;
+    nidm_1:sourceVariable "SEX" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SITE_ID_2j3v0jo a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "site identifier" ;
+    dct:description "Number assigned to site" ;
+    nidm_1:sourceVariable "SITE_ID" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SRS_AWARENESS_39q6vd1 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_AWARENESS" ;
+    dct:description "Social responsiveness scale social awareness subscore raw total" ;
+    nidm_1:sourceVariable "SRS_AWARENESS" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SRS_AWARENESS_3tv2218 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_AWARENESS"^^xsd:string ;
+    dct:description "Social responsiveness scale social awareness subscore raw total"^^xsd:string ;
+    nidm_1:sourceVariable "SRS_AWARENESS"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SRS_COGNITION_10ebi6k a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_COGNITION" ;
+    dct:description "Social responsiveness scale social cognition subscore raw total" ;
+    nidm_1:sourceVariable "SRS_COGNITION" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SRS_COGNITION_a5ert8 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_COGNITION"^^xsd:string ;
+    dct:description "Social responsiveness scale social cognition subscore raw total"^^xsd:string ;
+    nidm_1:sourceVariable "SRS_COGNITION"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SRS_COMMUNICATION_3d02liu a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_COMMUNICATION" ;
+    dct:description "Social responsiveness scale - social communication subscore raw total" ;
+    nidm_1:sourceVariable "SRS_COMMUNICATION" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SRS_COMMUNICATION_imhvs7 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_COMMUNICATION"^^xsd:string ;
+    dct:description "Social responsiveness scale - social communication subscore raw total"^^xsd:string ;
+    nidm_1:sourceVariable "SRS_COMMUNICATION"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SRS_MANNERISMS_1n8mbs3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_MANNERISMS" ;
+    dct:description "Social responsiveness scale autistic mannerisms subscore raw total" ;
+    nidm_1:sourceVariable "SRS_MANNERISMS" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SRS_MANNERISMS_2kucoa0 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_MANNERISMS"^^xsd:string ;
+    dct:description "Social responsiveness scale autistic mannerisms subscore raw total"^^xsd:string ;
+    nidm_1:sourceVariable "SRS_MANNERISMS"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SRS_MOTIVATION_24trpim a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_MOTIVATION" ;
+    dct:description "Social responsiveness scale - social motivation subscore raw total" ;
+    nidm_1:sourceVariable "SRS_MOTIVATION" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SRS_MOTIVATION_3s8sv7f a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_MOTIVATION"^^xsd:string ;
+    dct:description "Social responsiveness scale - social motivation subscore raw total"^^xsd:string ;
+    nidm_1:sourceVariable "SRS_MOTIVATION"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SRS_RAW_TOTAL_1epbfh a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_RAW_TOTAL" ;
+    dct:description "Total raw score for the Social Responsiveness Scale" ;
+    nidm_1:sourceVariable "SRS_RAW_TOTAL" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SRS_RAW_TOTAL_lsdbk6 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_RAW_TOTAL"^^xsd:string ;
+    dct:description "Total raw score for the Social Responsiveness Scale"^^xsd:string ;
+    nidm_1:sourceVariable "SRS_RAW_TOTAL"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SRS_VERSION_30t4622 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_VERSION"^^xsd:string ;
+    dct:description "Social Responsiveness Scale Version"^^xsd:string ;
+    nidm_1:sourceVariable "SRS_VERSION"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:SRS_VERSION_37vkkni a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SRS_VERSION" ;
+    dct:description "Social Responsiveness Scale Version" ;
+    nidm_1:sourceVariable "SRS_VERSION" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:SUB_ID_12pdk5b a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "SUB_ID" ;
+    dct:description "subject/participant identifier" ;
+    nidm_1:isAbout term_src_subject_id: ;
+    nidm_1:sourceVariable "SUB_ID" .
+
+niiri:VINELAND_ABC_STANDARD_10s8kv7 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_ABC_STANDARD" ;
+    dct:description "Vineland adaptive behavior composite standard score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_ABC_STANDARD" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_ABC_STANDARD_27jkt11 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_ABC_STANDARD"^^xsd:string ;
+    dct:description "Vineland adaptive behavior composite standard score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_ABC_STANDARD"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_COMMUNICATION_STANDARD_1rflic9 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_COMMUNICATION_STANDARD"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Communication Standard Score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_COMMUNICATION_STANDARD"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_COMMUNICATION_STANDARD_cqj0tc a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_COMMUNICATION_STANDARD" ;
+    dct:description "Vineland Adaptive Behavior Scales Communication Standard Score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_COMMUNICATION_STANDARD" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_COMMUNITY_V_SCALED_2332maj a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_COMMUNITY_V_SCALED" ;
+    dct:description "Vineland Adaptive Behavior Scales Community Daily Living Skills V Scaled Score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_COMMUNITY_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_COMMUNITY_V_SCALED_2adnkvh a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_COMMUNITY_V_SCALED"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Community Daily Living Skills V Scaled Score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_COMMUNITY_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_COPING_V_SCALED_2ta4nrq a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_COPING_V_SCALED"^^xsd:string ;
+    dct:description "Vineland adaptive behavior scales coping skills V scaled score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_COPING_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_COPING_V_SCALED_b41dn3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_COPING_V_SCALED" ;
+    dct:description "Vineland adaptive behavior scales coping skills V scaled score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_COPING_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_DAILYLVNG_STANDARD_2g8gbr2 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_DAILYLVNG_STANDARD" ;
+    dct:description "Vineland Adaptive Behavior Scales Daily Living Skills Standard Score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_DAILYLVNG_STANDARD" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_DAILYLVNG_STANDARD_9a1d10 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_DAILYLVNG_STANDARD"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Daily Living Skills Standard Score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_DAILYLVNG_STANDARD"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_DOMESTIC_V_SCALED_1it6bua a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_DOMESTIC_V_SCALED" ;
+    dct:description "Vineland Adaptive Behavior Scales Domestic Daily Living Skills V Scaled Score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_DOMESTIC_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_DOMESTIC_V_SCALED_741f6r a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_DOMESTIC_V_SCALED"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Domestic Daily Living Skills V Scaled Score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_DOMESTIC_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_EXPRESSIVE_V_SCALED_2mv9hul a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_EXPRESSIVE_V_SCALED" ;
+    dct:description "Vineland Adaptive Behavior Scales Expressive Language V Scaled Score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_EXPRESSIVE_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_EXPRESSIVE_V_SCALED_8ge26o a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_EXPRESSIVE_V_SCALED"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Expressive Language V Scaled Score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_EXPRESSIVE_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_INFORMANT_9u7b34 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_INFORMANT"^^xsd:string ;
+    dct:description "Vineland adaptive behavior scales informant"^^xsd:string ;
+    nidm_1:sourceVariable "VINELAND_INFORMANT"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_INFORMANT_t171vr a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_INFORMANT" ;
+    dct:description "Vineland adaptive behavior scales informant" ;
+    nidm_1:sourceVariable "VINELAND_INFORMANT" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_INTERPERSONAL_V_SCALED_3o0pmi3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_INTERPERSONAL_V_SCALED" ;
+    dct:description "Vineland adpadtive behavior scales interpersonal relationsips V scaled score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_INTERPERSONAL_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_INTERPERSONAL_V_SCALED_plsac5 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_INTERPERSONAL_V_SCALED"^^xsd:string ;
+    dct:description "Vineland adpadtive behavior scales interpersonal relationsips V scaled score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_INTERPERSONAL_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_PERSONAL_V_SCALED_28chieb a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_PERSONAL_V_SCALED" ;
+    dct:description "Vineland Adaptive Behavior Scales Personal DAily Living Skills V Scaled Score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_PERSONAL_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_PERSONAL_V_SCALED_2gdu4se a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_PERSONAL_V_SCALED"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Personal DAily Living Skills V Scaled Score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_PERSONAL_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_PLAY_V_SCALED_3mr39cn a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_PLAY_V_SCALED"^^xsd:string ;
+    dct:description "Vineland adaptive behavior scales play and leisure time V scaled score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_PLAY_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_PLAY_V_SCALED_3r4ahgh a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_PLAY_V_SCALED" ;
+    dct:description "Vineland adaptive behavior scales play and leisure time V scaled score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_PLAY_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_RECEPTIVE_V_SCALED_2b1lrgk a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_RECEPTIVE_V_SCALED"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Receptive Language V Scaled Score"^^xsd:string ;
+    nidm_1:isAbout term_BehavioralInstrument: ;
+    nidm_1:sourceVariable "VINELAND_RECEPTIVE_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_RECEPTIVE_V_SCALED_3g0scqj a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_RECEPTIVE_V_SCALED" ;
+    dct:description "Vineland Adaptive Behavior Scales Receptive Language V Scaled Score" ;
+    nidm_1:isAbout term_BehavioralInstrument: ;
+    nidm_1:sourceVariable "VINELAND_RECEPTIVE_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_SOCIAL_STANDARD_17dh0uu a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_SOCIAL_STANDARD"^^xsd:string ;
+    dct:description "Vineland adaptive behavior scales socialization standard score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_SOCIAL_STANDARD"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_SOCIAL_STANDARD_f3b39c a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_SOCIAL_STANDARD" ;
+    dct:description "Vineland adaptive behavior scales socialization standard score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_SOCIAL_STANDARD" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_SUM_SCORES_23bbap2 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_SUM_SCORES"^^xsd:string ;
+    dct:description "Sum of Vineland standard scores (Communication + Daily Living Skills + Socialization)"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_SUM_SCORES"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VINELAND_SUM_SCORES_u2pin3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_SUM_SCORES" ;
+    dct:description "Sum of Vineland standard scores (Communication + Daily Living Skills + Socialization)" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_SUM_SCORES" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_WRITTEN_V_SCALED_30mt5fl a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_WRITTEN_V_SCALED" ;
+    dct:description "Vineland Adaptive Behavior Scales Written Language V Scaled Score" ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_WRITTEN_V_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VINELAND_WRITTEN_V_SCALED_3po7d9s a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VINELAND_WRITTEN_V_SCALED"^^xsd:string ;
+    dct:description "Vineland Adaptive Behavior Scales Written Language V Scaled Score"^^xsd:string ;
+    nidm_1:isAbout term_M0000344: ;
+    nidm_1:sourceVariable "VINELAND_WRITTEN_V_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VIQ_1gebme1 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VIQ"^^xsd:string ;
+    dct:description "verbal intelligence score"^^xsd:string ;
+    nidm_1:isAbout term_ilx_0739359: ;
+    nidm_1:sourceVariable "VIQ"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:VIQ_3aou46t a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VIQ" ;
+    dct:description "verbal intelligence score" ;
+    nidm_1:isAbout term_ilx_0739359: ;
+    nidm_1:sourceVariable "VIQ" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VIQ_TEST_TYPE_qnmjem a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VIQ_TEST_TYPE" ;
+    dct:description "IQ test administered for verbal IQ" ;
+    nidm_1:sourceVariable "VIQ_TEST_TYPE" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:VIQ_TEST_TYPE_qrmtpq a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "VIQ_TEST_TYPE"^^xsd:string ;
+    dct:description "IQ test administered for verbal IQ"^^xsd:string ;
+    nidm_1:sourceVariable "VIQ_TEST_TYPE"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_BLK_DSN_SCALED_2v1o037 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_BLK_DSN_SCALED" ;
+    dct:description "WISC-IV Block design scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_BLK_DSN_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_BLK_DSN_SCALED_3ubmhqc a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_BLK_DSN_SCALED"^^xsd:string ;
+    dct:description "WISC-IV Block design scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_BLK_DSN_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_CODING_SCALED_31cuob4 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_CODING_SCALED" ;
+    dct:description "WISC-IV coding scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_CODING_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_CODING_SCALED_37ecur2 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_CODING_SCALED"^^xsd:string ;
+    dct:description "WISC-IV coding scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_CODING_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_DIGIT_SPAN_SCALED_2b3a0so a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_DIGIT_SPAN_SCALED" ;
+    dct:description "WISC-IV Digit span scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_DIGIT_SPAN_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_DIGIT_SPAN_SCALED_73ek5j a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_DIGIT_SPAN_SCALED"^^xsd:string ;
+    dct:description "WISC-IV Digit span scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_DIGIT_SPAN_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_INFO_SCALED_3lbkoea a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_INFO_SCALED"^^xsd:string ;
+    dct:description "WISC-IV Information scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_INFO_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_INFO_SCALED_rk75s3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_INFO_SCALED" ;
+    dct:description "WISC-IV Information scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_INFO_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_LET_NUM_SCALED_1ab27c0 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_LET_NUM_SCALED"^^xsd:string ;
+    dct:description "WISC-IV Letter-Number sequencing scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_LET_NUM_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_LET_NUM_SCALED_34bhoqp a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_LET_NUM_SCALED" ;
+    dct:description "WISC-IV Letter-Number sequencing scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_LET_NUM_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_MATRIX_SCALED_2ig3lo3 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_MATRIX_SCALED" ;
+    dct:description "WISC-IV Matrix reasoning scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_MATRIX_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_MATRIX_SCALED_3h92ipg a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_MATRIX_SCALED"^^xsd:string ;
+    dct:description "WISC-IV Matrix reasoning scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_MATRIX_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_PIC_CON_SCALED_12cnh5v a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_PIC_CON_SCALED"^^xsd:string ;
+    dct:description "WISC-IV Picture concepts scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_PIC_CON_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_PIC_CON_SCALED_2ii7r0e a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_PIC_CON_SCALED" ;
+    dct:description "WISC-IV Picture concepts scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_PIC_CON_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_PRI_1g71b4e a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_PRI"^^xsd:string ;
+    dct:description "WISC-IV perceptual reasoning index"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_PRI"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_PRI_2g0tv6r a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_PRI" ;
+    dct:description "WISC-IV perceptual reasoning index" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_PRI" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_PSI_3jqq6k1 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_PSI" ;
+    dct:description "WISC-IV processing speed index" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_PSI" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_PSI_4j3l8 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_PSI"^^xsd:string ;
+    dct:description "WISC-IV processing speed index"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_PSI"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_SIM_SCALED_1rn7gg2 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_SIM_SCALED"^^xsd:string ;
+    dct:description "WISC-IV Sim scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_SIM_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_SIM_SCALED_3sbu0e a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_SIM_SCALED" ;
+    dct:description "WISC-IV Sim scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_SIM_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_SYM_SCALED_17fq60e a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_SYM_SCALED"^^xsd:string ;
+    dct:description "WISC-IV symbol search scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_SYM_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_SYM_SCALED_1hoe1o a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_SYM_SCALED" ;
+    dct:description "WISC-IV symbol search scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_SYM_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_VCI_1jfevqg a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_VCI"^^xsd:string ;
+    dct:description "WISC-IV verbal comprehension index"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_VCI"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_VCI_29q2ks4 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_VCI" ;
+    dct:description "WISC-IV verbal comprehension index" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_VCI" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_VOCAB_SCALED_3fb2pf8 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_VOCAB_SCALED" ;
+    dct:description "WISC-IV vocabulary scaled" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_VOCAB_SCALED" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_VOCAB_SCALED_v9a1vr a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_VOCAB_SCALED"^^xsd:string ;
+    dct:description "WISC-IV vocabulary scaled"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_VOCAB_SCALED"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:WISC_IV_WMI_3e3rpk0 a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_WMI" ;
+    dct:description "WISC-IV working memory index" ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_WMI" ;
+    ilx:ilx_0739289 "NIDM" .
+
+niiri:WISC_IV_WMI_3qv4vma a nidm_1:PersonalDataElement,
+        prov:Entity ;
+    rdfs:label "WISC_IV_WMI"^^xsd:string ;
+    dct:description "WISC-IV working memory index"^^xsd:string ;
+    nidm_1:isAbout term_CAO_00910: ;
+    nidm_1:sourceVariable "WISC_IV_WMI"^^xsd:string ;
+    ilx:ilx_0739289 "NIDM"^^xsd:string .
+
+niiri:a0083c08-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00306"^^xsd:float ;
+    bids:FlipAngle 9 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "be4801ce80bc3de5fd5441108dc03d5806cd2c22829ce6cf422a657f8d98d0db37f6fe743f926dac9e8282e8ab9d50bca79fb7b83981970d2aea8db4a2ccf44f"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x240"^^xsd:string ;
+    dicom:InversionTime "0.9"^^xsd:float ;
+    dicom:MagneticFieldStrength 3 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "230.0"^^xsd:float ;
+    dicom:RepetitionTime "1.8"^^xsd:float ;
+    dicom:ScanOptions "PFP"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:T1Weighted ;
+    nidm_1:hadImageUsageType nidm_1:Anatomical ;
+    nfo:filename "/sub-0051322/anat/sub-0051322_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051322/anat/sub-0051322_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a0083794-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a01e80d0-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.03"^^xsd:float ;
+    bids:FlipAngle 80 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,1.54286,0.08571,1.6285699999999999,0.17143,1.7142899999999999,0.25714,1.8,0.34286,1.88571,0.42857,1.97143,0.5142899999999999,2.05714,0.6,2.14286,0.68571,2.2285700000000004,0.77143,2.31429,0.85714,2.4,0.94286,2.48571,1.02857,2.57143,1.11429,2.65714,1.2,2.7428600000000003,1.2857100000000001,2.82857,1.3714300000000001,2.91429,1.45714"^^xsd:string ;
+    crypto:sha512 "a9b88b18cb4939b7c28dbb66ddf1d524575d23905eeb4ef2d241b31f98f9c19a9312c3d7a12504e32141a589d81fd9825bb8dba1769771b275b8c5f134405bb5"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "2232.0"^^xsd:float ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:RepetitionTime "3.0"^^xsd:float ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm_1:AcquisitionObject 1 ;
+    nidm_1:Task "rest"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:FlowWeighted ;
+    nidm_1:hadImageUsageType nidm_1:Functional ;
+    nfo:filename "/sub-0051322/func/sub-0051322_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051322/func/sub-0051322_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a01e7bbc-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a044a67a-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00306"^^xsd:float ;
+    bids:FlipAngle 9 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "255054657d9b52703034c1262d2f299f18d6b1a030081bda66c3e28baeeaa27d02155d2ded9ff74dab5724560e33b20ee72ac704e6a72e2a996c86f4b869af8d"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x240"^^xsd:string ;
+    dicom:InversionTime "0.9"^^xsd:float ;
+    dicom:MagneticFieldStrength 3 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "230.0"^^xsd:float ;
+    dicom:RepetitionTime "1.8"^^xsd:float ;
+    dicom:ScanOptions "PFP"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:T1Weighted ;
+    nidm_1:hadImageUsageType nidm_1:Anatomical ;
+    nfo:filename "/sub-0051323/anat/sub-0051323_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051323/anat/sub-0051323_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a044a288-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a05b51e0-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.03"^^xsd:float ;
+    bids:FlipAngle 80 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,1.54286,0.08571,1.6285699999999999,0.17143,1.7142899999999999,0.25714,1.8,0.34286,1.88571,0.42857,1.97143,0.5142899999999999,2.05714,0.6,2.14286,0.68571,2.2285700000000004,0.77143,2.31429,0.85714,2.4,0.94286,2.48571,1.02857,2.57143,1.11429,2.65714,1.2,2.7428600000000003,1.2857100000000001,2.82857,1.3714300000000001,2.91429,1.45714"^^xsd:string ;
+    crypto:sha512 "28e8fc0d0c56637b7df3a4655c93afa4243db28135608040f3a4b549062609c88199fae17bc652f6f63942ee74a365955b0e89a3524e0722e0aae2802634ad38"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "2232.0"^^xsd:float ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:RepetitionTime "3.0"^^xsd:float ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm_1:AcquisitionObject 1 ;
+    nidm_1:Task "rest"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:FlowWeighted ;
+    nidm_1:hadImageUsageType nidm_1:Functional ;
+    nfo:filename "/sub-0051323/func/sub-0051323_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051323/func/sub-0051323_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a05b4cf4-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a078fc4a-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00306"^^xsd:float ;
+    bids:FlipAngle 9 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "19aa8ee5431ad01487aa03b0166b32940385bc1477d641effb2cf3c063374b6727946dbe6e0896cc820ff7a5b1baa14d567fca2b64a356549d6823ebecd374db"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x240"^^xsd:string ;
+    dicom:InversionTime "0.9"^^xsd:float ;
+    dicom:MagneticFieldStrength 3 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "230.0"^^xsd:float ;
+    dicom:RepetitionTime "1.8"^^xsd:float ;
+    dicom:ScanOptions "PFP"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:T1Weighted ;
+    nidm_1:hadImageUsageType nidm_1:Anatomical ;
+    nfo:filename "/sub-0051324/anat/sub-0051324_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051324/anat/sub-0051324_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a078f826-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a08a4608-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.03"^^xsd:float ;
+    bids:FlipAngle 80 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,1.54286,0.08571,1.6285699999999999,0.17143,1.7142899999999999,0.25714,1.8,0.34286,1.88571,0.42857,1.97143,0.5142899999999999,2.05714,0.6,2.14286,0.68571,2.2285700000000004,0.77143,2.31429,0.85714,2.4,0.94286,2.48571,1.02857,2.57143,1.11429,2.65714,1.2,2.7428600000000003,1.2857100000000001,2.82857,1.3714300000000001,2.91429,1.45714"^^xsd:string ;
+    crypto:sha512 "559ef52779c2e4281bd7a7967373003aa34556f4e004f5d37a1c91fc9e270fc3b114c7a626626a41982f012a398922b290c51fcabbd1beb5127b105da3f162b4"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "2232.0"^^xsd:float ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:RepetitionTime "3.0"^^xsd:float ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm_1:AcquisitionObject 1 ;
+    nidm_1:Task "rest"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:FlowWeighted ;
+    nidm_1:hadImageUsageType nidm_1:Functional ;
+    nfo:filename "/sub-0051324/func/sub-0051324_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051324/func/sub-0051324_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a08a40f4-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0ac58c4-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00306"^^xsd:float ;
+    bids:FlipAngle 9 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "70cd771d6616dc167576e55995cf26ccc6e3b6ec76141247cf204dcd1a9acd7202e49934255d43281ac2fccd37888feef4e321d73d86a649423c406b534e52a5"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x240"^^xsd:string ;
+    dicom:InversionTime "0.9"^^xsd:float ;
+    dicom:MagneticFieldStrength 3 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "230.0"^^xsd:float ;
+    dicom:RepetitionTime "1.8"^^xsd:float ;
+    dicom:ScanOptions "PFP"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:T1Weighted ;
+    nidm_1:hadImageUsageType nidm_1:Anatomical ;
+    nfo:filename "/sub-0051325/anat/sub-0051325_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051325/anat/sub-0051325_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a0ac54aa-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0bfc8c8-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.03"^^xsd:float ;
+    bids:FlipAngle 80 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,1.54286,0.08571,1.6285699999999999,0.17143,1.7142899999999999,0.25714,1.8,0.34286,1.88571,0.42857,1.97143,0.5142899999999999,2.05714,0.6,2.14286,0.68571,2.2285700000000004,0.77143,2.31429,0.85714,2.4,0.94286,2.48571,1.02857,2.57143,1.11429,2.65714,1.2,2.7428600000000003,1.2857100000000001,2.82857,1.3714300000000001,2.91429,1.45714"^^xsd:string ;
+    crypto:sha512 "cfa039f9333174bc678ec9650112d60d87eeabc3898914adf3cf1b3e829e546b7b80f663f031e7d04a9ea90bf8261020f321d8900d62a55773322b43a99a6f8f"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "2232.0"^^xsd:float ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:RepetitionTime "3.0"^^xsd:float ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm_1:AcquisitionObject 1 ;
+    nidm_1:Task "rest"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:FlowWeighted ;
+    nidm_1:hadImageUsageType nidm_1:Functional ;
+    nfo:filename "/sub-0051325/func/sub-0051325_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051325/func/sub-0051325_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a0bfc3dc-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0db3ae0-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00306"^^xsd:float ;
+    bids:FlipAngle 9 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "7e1cd38e7cfb7f5bbd6e188fd677eabd7fd81fdebcba10bdc7c32707a9e4e562dae669579e7f4d2950260aaf9e40ecb560c6a304240598388d54aa3d6336c295"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x240"^^xsd:string ;
+    dicom:InversionTime "0.9"^^xsd:float ;
+    dicom:MagneticFieldStrength 3 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "230.0"^^xsd:float ;
+    dicom:RepetitionTime "1.8"^^xsd:float ;
+    dicom:ScanOptions "PFP"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:T1Weighted ;
+    nidm_1:hadImageUsageType nidm_1:Anatomical ;
+    nfo:filename "/sub-0051326/anat/sub-0051326_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051326/anat/sub-0051326_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a0db36c6-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0edac70-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.03"^^xsd:float ;
+    bids:FlipAngle 80 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,1.54286,0.08571,1.6285699999999999,0.17143,1.7142899999999999,0.25714,1.8,0.34286,1.88571,0.42857,1.97143,0.5142899999999999,2.05714,0.6,2.14286,0.68571,2.2285700000000004,0.77143,2.31429,0.85714,2.4,0.94286,2.48571,1.02857,2.57143,1.11429,2.65714,1.2,2.7428600000000003,1.2857100000000001,2.82857,1.3714300000000001,2.91429,1.45714"^^xsd:string ;
+    crypto:sha512 "dd369773fcea522e80de117b4d3e03711eacc6f175f17cce899a087bae7231fa986c8e048dd268b1e60d3f50e2cc522c83cc087b0717b42c30fd576de98f73e1"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "2232.0"^^xsd:float ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:RepetitionTime "3.0"^^xsd:float ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm_1:AcquisitionObject 1 ;
+    nidm_1:Task "rest"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:FlowWeighted ;
+    nidm_1:hadImageUsageType nidm_1:Functional ;
+    nfo:filename "/sub-0051326/func/sub-0051326_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051326/func/sub-0051326_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a0eda784-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a109b672-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00306"^^xsd:float ;
+    bids:FlipAngle 9 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "89ee877626b8bd0558b0988dad4d8188ba6898208575b94397f8fc1017944e99f9e72308ac37cad53d9e8936f31f28bd167302a273f7e2f80995465e5143196c"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x240"^^xsd:string ;
+    dicom:InversionTime "0.9"^^xsd:float ;
+    dicom:MagneticFieldStrength 3 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "230.0"^^xsd:float ;
+    dicom:RepetitionTime "1.8"^^xsd:float ;
+    dicom:ScanOptions "PFP"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:T1Weighted ;
+    nidm_1:hadImageUsageType nidm_1:Anatomical ;
+    nfo:filename "/sub-0051327/anat/sub-0051327_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051327/anat/sub-0051327_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a109b23a-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a11fb0e4-79fc-11f0-8c4c-d404e67489a0 a nidm_1:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.03"^^xsd:float ;
+    bids:FlipAngle 80 ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,1.54286,0.08571,1.6285699999999999,0.17143,1.7142899999999999,0.25714,1.8,0.34286,1.88571,0.42857,1.97143,0.5142899999999999,2.05714,0.6,2.14286,0.68571,2.2285700000000004,0.77143,2.31429,0.85714,2.4,0.94286,2.48571,1.02857,2.57143,1.11429,2.65714,1.2,2.7428600000000003,1.2857100000000001,2.82857,1.3714300000000001,2.91429,1.45714"^^xsd:string ;
+    crypto:sha512 "6ecd8578d732f51ecf82b90ac37461245277612bf80067c651bb34dd68eb1636520d0bb4e02323979017c5b2b42392ec6ba9ee1e8c4cbe64d3c8b83869611b07"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "2232.0"^^xsd:float ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:RepetitionTime "3.0"^^xsd:float ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm_1:AcquisitionObject 1 ;
+    nidm_1:Task "rest"^^xsd:string ;
+    nidm_1:hadAcquisitionModality nidm_1:MagneticResonanceImaging ;
+    nidm_1:hadImageContrastType nidm_1:FlowWeighted ;
+    nidm_1:hadImageUsageType nidm_1:Functional ;
+    nfo:filename "/sub-0051327/func/sub-0051327_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/sub-0051327/func/sub-0051327_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a11fab80-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:afd5a19e-79fc-11f0-8c4c-d404e67489a0 a onli:assessment-instrument,
+        nidm_1:AcquisitionObject,
+        prov:Entity ;
+    niiri:ADI_RRB_TOTAL_C_39e194u "n/a"^^xsd:string ;
+    niiri:ADI_R_ONSET_TOTAL_D_1qgt2e2 "n/a"^^xsd:string ;
+    niiri:ADI_R_RSRCH_RELIABLE_341n10r "n/a"^^xsd:string ;
+    niiri:ADI_R_SOCIAL_TOTAL_A_2k6d347 "n/a"^^xsd:string ;
+    niiri:ADI_R_VERBAL_TOTAL_BV_2ms3m15 "n/a"^^xsd:string ;
+    niiri:ADOS_COMM_ckvacd "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_RRB_1cufrb4 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SEVERITY_374m2ib "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SOCAFFECT_2tddcs1 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_TOTAL_3hrnrne "n/a"^^xsd:string ;
+    niiri:ADOS_MODULE_3git99l "n/a"^^xsd:string ;
+    niiri:ADOS_RSRCH_RELIABLE_34qh1g3 "n/a"^^xsd:string ;
+    niiri:ADOS_SOCIAL_38pkjeg "n/a"^^xsd:string ;
+    niiri:ADOS_STEREO_BEHAV_18dfgm7 "n/a"^^xsd:string ;
+    niiri:ADOS_TOTAL_3jsgd0v "n/a"^^xsd:string ;
+    niiri:AGE_AT_MPRAGE_2caeq2h "n/a"^^xsd:string ;
+    niiri:AGE_AT_SCAN_sp10mb "30"^^xsd:string ;
+    niiri:AQ_TOTAL_1u0c4aa "n/a"^^xsd:string ;
+    niiri:BMI_36rj13t "n/a"^^xsd:string ;
+    niiri:COMORBIDITY_22kfqgu "n/a"^^xsd:string ;
+    niiri:CURRENT_MED_STATUS_3jhl88k "0"^^xsd:string ;
+    niiri:DSM_IV_TR_3s1uipu "2"^^xsd:string ;
+    niiri:DX_GROUP_2ftcrn7 "1"^^xsd:string ;
+    niiri:EYE_STATUS_AT_SCAN_33h63sq "2"^^xsd:string ;
+    niiri:FIQ_TEST_TYPE_1kdihag "WST"^^xsd:string ;
+    niiri:FIQ_pc649q "118"^^xsd:string ;
+    niiri:HANDEDNESS_CATEGORY_2jk2o1n "R"^^xsd:string ;
+    niiri:HANDEDNESS_SCORES_2t52ulb "n/a"^^xsd:string ;
+    niiri:MEDICATION_NAME_14joir4 "n/a"^^xsd:string ;
+    niiri:OFF_STIMULANTS_AT_SCAN_2sfu3d "n/a"^^xsd:string ;
+    niiri:PIQ_3pq2kt8 "n/a"^^xsd:string ;
+    niiri:PIQ_TEST_TYPE_17ldg7d "n/a"^^xsd:string ;
+    niiri:SCQ_TOTAL_3e093c4 "n/a"^^xsd:string ;
+    niiri:SEX_28dvfs7 "1"^^xsd:string ;
+    niiri:SRS_AWARENESS_3tv2218 "n/a"^^xsd:string ;
+    niiri:SRS_COGNITION_a5ert8 "n/a"^^xsd:string ;
+    niiri:SRS_COMMUNICATION_imhvs7 "n/a"^^xsd:string ;
+    niiri:SRS_MANNERISMS_2kucoa0 "n/a"^^xsd:string ;
+    niiri:SRS_MOTIVATION_3s8sv7f "n/a"^^xsd:string ;
+    niiri:SRS_RAW_TOTAL_lsdbk6 "n/a"^^xsd:string ;
+    niiri:SRS_VERSION_30t4622 "n/a"^^xsd:string ;
+    niiri:VINELAND_ABC_STANDARD_27jkt11 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNICATION_STANDARD_1rflic9 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNITY_V_SCALED_2adnkvh "n/a"^^xsd:string ;
+    niiri:VINELAND_COPING_V_SCALED_2ta4nrq "n/a"^^xsd:string ;
+    niiri:VINELAND_DAILYLVNG_STANDARD_9a1d10 "n/a"^^xsd:string ;
+    niiri:VINELAND_DOMESTIC_V_SCALED_741f6r "n/a"^^xsd:string ;
+    niiri:VINELAND_EXPRESSIVE_V_SCALED_8ge26o "n/a"^^xsd:string ;
+    niiri:VINELAND_INFORMANT_9u7b34 "n/a"^^xsd:string ;
+    niiri:VINELAND_INTERPERSONAL_V_SCALED_plsac5 "n/a"^^xsd:string ;
+    niiri:VINELAND_PERSONAL_V_SCALED_2gdu4se "n/a"^^xsd:string ;
+    niiri:VINELAND_PLAY_V_SCALED_3mr39cn "n/a"^^xsd:string ;
+    niiri:VINELAND_RECEPTIVE_V_SCALED_2b1lrgk "n/a"^^xsd:string ;
+    niiri:VINELAND_SOCIAL_STANDARD_17dh0uu "n/a"^^xsd:string ;
+    niiri:VINELAND_SUM_SCORES_23bbap2 "n/a"^^xsd:string ;
+    niiri:VINELAND_WRITTEN_V_SCALED_3po7d9s "n/a"^^xsd:string ;
+    niiri:VIQ_1gebme1 "n/a"^^xsd:string ;
+    niiri:VIQ_TEST_TYPE_qrmtpq "n/a"^^xsd:string ;
+    niiri:WISC_IV_BLK_DSN_SCALED_3ubmhqc "n/a"^^xsd:string ;
+    niiri:WISC_IV_CODING_SCALED_37ecur2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_DIGIT_SPAN_SCALED_73ek5j "n/a"^^xsd:string ;
+    niiri:WISC_IV_INFO_SCALED_3lbkoea "n/a"^^xsd:string ;
+    niiri:WISC_IV_LET_NUM_SCALED_1ab27c0 "n/a"^^xsd:string ;
+    niiri:WISC_IV_MATRIX_SCALED_3h92ipg "n/a"^^xsd:string ;
+    niiri:WISC_IV_PIC_CON_SCALED_12cnh5v "n/a"^^xsd:string ;
+    niiri:WISC_IV_PRI_1g71b4e "n/a"^^xsd:string ;
+    niiri:WISC_IV_PSI_4j3l8 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SIM_SCALED_1rn7gg2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SYM_SCALED_17fq60e "n/a"^^xsd:string ;
+    niiri:WISC_IV_VCI_1jfevqg "n/a"^^xsd:string ;
+    niiri:WISC_IV_VOCAB_SCALED_v9a1vr "n/a"^^xsd:string ;
+    niiri:WISC_IV_WMI_3qv4vma "n/a"^^xsd:string ;
+    nfo:filename "participants.tsv"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/participants.tsv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:afd5a040-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:afe74296-79fc-11f0-8c4c-d404e67489a0 a onli:assessment-instrument,
+        nidm_1:AcquisitionObject,
+        prov:Entity ;
+    niiri:ADI_RRB_TOTAL_C_39e194u "n/a"^^xsd:string ;
+    niiri:ADI_R_ONSET_TOTAL_D_1qgt2e2 "n/a"^^xsd:string ;
+    niiri:ADI_R_RSRCH_RELIABLE_341n10r "n/a"^^xsd:string ;
+    niiri:ADI_R_SOCIAL_TOTAL_A_2k6d347 "n/a"^^xsd:string ;
+    niiri:ADI_R_VERBAL_TOTAL_BV_2ms3m15 "n/a"^^xsd:string ;
+    niiri:ADOS_COMM_ckvacd "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_RRB_1cufrb4 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SEVERITY_374m2ib "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SOCAFFECT_2tddcs1 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_TOTAL_3hrnrne "n/a"^^xsd:string ;
+    niiri:ADOS_MODULE_3git99l "n/a"^^xsd:string ;
+    niiri:ADOS_RSRCH_RELIABLE_34qh1g3 "n/a"^^xsd:string ;
+    niiri:ADOS_SOCIAL_38pkjeg "n/a"^^xsd:string ;
+    niiri:ADOS_STEREO_BEHAV_18dfgm7 "n/a"^^xsd:string ;
+    niiri:ADOS_TOTAL_3jsgd0v "n/a"^^xsd:string ;
+    niiri:AGE_AT_MPRAGE_2caeq2h "n/a"^^xsd:string ;
+    niiri:AGE_AT_SCAN_sp10mb "32"^^xsd:string ;
+    niiri:AQ_TOTAL_1u0c4aa "n/a"^^xsd:string ;
+    niiri:BMI_36rj13t "n/a"^^xsd:string ;
+    niiri:COMORBIDITY_22kfqgu "n/a"^^xsd:string ;
+    niiri:CURRENT_MED_STATUS_3jhl88k "0"^^xsd:string ;
+    niiri:DSM_IV_TR_3s1uipu "2"^^xsd:string ;
+    niiri:DX_GROUP_2ftcrn7 "1"^^xsd:string ;
+    niiri:EYE_STATUS_AT_SCAN_33h63sq "2"^^xsd:string ;
+    niiri:FIQ_TEST_TYPE_1kdihag "WST"^^xsd:string ;
+    niiri:FIQ_pc649q "110"^^xsd:string ;
+    niiri:HANDEDNESS_CATEGORY_2jk2o1n "L"^^xsd:string ;
+    niiri:HANDEDNESS_SCORES_2t52ulb "n/a"^^xsd:string ;
+    niiri:MEDICATION_NAME_14joir4 "n/a"^^xsd:string ;
+    niiri:OFF_STIMULANTS_AT_SCAN_2sfu3d "n/a"^^xsd:string ;
+    niiri:PIQ_3pq2kt8 "n/a"^^xsd:string ;
+    niiri:PIQ_TEST_TYPE_17ldg7d "n/a"^^xsd:string ;
+    niiri:SCQ_TOTAL_3e093c4 "n/a"^^xsd:string ;
+    niiri:SEX_28dvfs7 "2"^^xsd:string ;
+    niiri:SRS_AWARENESS_3tv2218 "n/a"^^xsd:string ;
+    niiri:SRS_COGNITION_a5ert8 "n/a"^^xsd:string ;
+    niiri:SRS_COMMUNICATION_imhvs7 "n/a"^^xsd:string ;
+    niiri:SRS_MANNERISMS_2kucoa0 "n/a"^^xsd:string ;
+    niiri:SRS_MOTIVATION_3s8sv7f "n/a"^^xsd:string ;
+    niiri:SRS_RAW_TOTAL_lsdbk6 "n/a"^^xsd:string ;
+    niiri:SRS_VERSION_30t4622 "n/a"^^xsd:string ;
+    niiri:VINELAND_ABC_STANDARD_27jkt11 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNICATION_STANDARD_1rflic9 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNITY_V_SCALED_2adnkvh "n/a"^^xsd:string ;
+    niiri:VINELAND_COPING_V_SCALED_2ta4nrq "n/a"^^xsd:string ;
+    niiri:VINELAND_DAILYLVNG_STANDARD_9a1d10 "n/a"^^xsd:string ;
+    niiri:VINELAND_DOMESTIC_V_SCALED_741f6r "n/a"^^xsd:string ;
+    niiri:VINELAND_EXPRESSIVE_V_SCALED_8ge26o "n/a"^^xsd:string ;
+    niiri:VINELAND_INFORMANT_9u7b34 "n/a"^^xsd:string ;
+    niiri:VINELAND_INTERPERSONAL_V_SCALED_plsac5 "n/a"^^xsd:string ;
+    niiri:VINELAND_PERSONAL_V_SCALED_2gdu4se "n/a"^^xsd:string ;
+    niiri:VINELAND_PLAY_V_SCALED_3mr39cn "n/a"^^xsd:string ;
+    niiri:VINELAND_RECEPTIVE_V_SCALED_2b1lrgk "n/a"^^xsd:string ;
+    niiri:VINELAND_SOCIAL_STANDARD_17dh0uu "n/a"^^xsd:string ;
+    niiri:VINELAND_SUM_SCORES_23bbap2 "n/a"^^xsd:string ;
+    niiri:VINELAND_WRITTEN_V_SCALED_3po7d9s "n/a"^^xsd:string ;
+    niiri:VIQ_1gebme1 "n/a"^^xsd:string ;
+    niiri:VIQ_TEST_TYPE_qrmtpq "n/a"^^xsd:string ;
+    niiri:WISC_IV_BLK_DSN_SCALED_3ubmhqc "n/a"^^xsd:string ;
+    niiri:WISC_IV_CODING_SCALED_37ecur2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_DIGIT_SPAN_SCALED_73ek5j "n/a"^^xsd:string ;
+    niiri:WISC_IV_INFO_SCALED_3lbkoea "n/a"^^xsd:string ;
+    niiri:WISC_IV_LET_NUM_SCALED_1ab27c0 "n/a"^^xsd:string ;
+    niiri:WISC_IV_MATRIX_SCALED_3h92ipg "n/a"^^xsd:string ;
+    niiri:WISC_IV_PIC_CON_SCALED_12cnh5v "n/a"^^xsd:string ;
+    niiri:WISC_IV_PRI_1g71b4e "n/a"^^xsd:string ;
+    niiri:WISC_IV_PSI_4j3l8 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SIM_SCALED_1rn7gg2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SYM_SCALED_17fq60e "n/a"^^xsd:string ;
+    niiri:WISC_IV_VCI_1jfevqg "n/a"^^xsd:string ;
+    niiri:WISC_IV_VOCAB_SCALED_v9a1vr "n/a"^^xsd:string ;
+    niiri:WISC_IV_WMI_3qv4vma "n/a"^^xsd:string ;
+    nfo:filename "participants.tsv"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/participants.tsv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:cfe74124-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:bfde695a-79fc-11f0-8c4c-d404e67489a0 a onli:assessment-instrument,
+        nidm_1:AcquisitionObject,
+        prov:Entity ;
+    niiri:ADI_RRB_TOTAL_C_39e194u "n/a"^^xsd:string ;
+    niiri:ADI_R_ONSET_TOTAL_D_1qgt2e2 "n/a"^^xsd:string ;
+    niiri:ADI_R_RSRCH_RELIABLE_341n10r "n/a"^^xsd:string ;
+    niiri:ADI_R_SOCIAL_TOTAL_A_2k6d347 "n/a"^^xsd:string ;
+    niiri:ADI_R_VERBAL_TOTAL_BV_2ms3m15 "n/a"^^xsd:string ;
+    niiri:ADOS_COMM_ckvacd "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_RRB_1cufrb4 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SEVERITY_374m2ib "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SOCAFFECT_2tddcs1 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_TOTAL_3hrnrne "n/a"^^xsd:string ;
+    niiri:ADOS_MODULE_3git99l "n/a"^^xsd:string ;
+    niiri:ADOS_RSRCH_RELIABLE_34qh1g3 "n/a"^^xsd:string ;
+    niiri:ADOS_SOCIAL_38pkjeg "n/a"^^xsd:string ;
+    niiri:ADOS_STEREO_BEHAV_18dfgm7 "n/a"^^xsd:string ;
+    niiri:ADOS_TOTAL_3jsgd0v "n/a"^^xsd:string ;
+    niiri:AGE_AT_MPRAGE_2caeq2h "n/a"^^xsd:string ;
+    niiri:AGE_AT_SCAN_sp10mb "52"^^xsd:string ;
+    niiri:AQ_TOTAL_1u0c4aa "n/a"^^xsd:string ;
+    niiri:BMI_36rj13t "n/a"^^xsd:string ;
+    niiri:COMORBIDITY_22kfqgu "n/a"^^xsd:string ;
+    niiri:CURRENT_MED_STATUS_3jhl88k "0"^^xsd:string ;
+    niiri:DSM_IV_TR_3s1uipu "2"^^xsd:string ;
+    niiri:DX_GROUP_2ftcrn7 "1"^^xsd:string ;
+    niiri:EYE_STATUS_AT_SCAN_33h63sq "2"^^xsd:string ;
+    niiri:FIQ_TEST_TYPE_1kdihag "WST"^^xsd:string ;
+    niiri:FIQ_pc649q "133"^^xsd:string ;
+    niiri:HANDEDNESS_CATEGORY_2jk2o1n "R"^^xsd:string ;
+    niiri:HANDEDNESS_SCORES_2t52ulb "n/a"^^xsd:string ;
+    niiri:MEDICATION_NAME_14joir4 "n/a"^^xsd:string ;
+    niiri:OFF_STIMULANTS_AT_SCAN_2sfu3d "n/a"^^xsd:string ;
+    niiri:PIQ_3pq2kt8 "n/a"^^xsd:string ;
+    niiri:PIQ_TEST_TYPE_17ldg7d "n/a"^^xsd:string ;
+    niiri:SCQ_TOTAL_3e093c4 "n/a"^^xsd:string ;
+    niiri:SEX_28dvfs7 "1"^^xsd:string ;
+    niiri:SRS_AWARENESS_3tv2218 "n/a"^^xsd:string ;
+    niiri:SRS_COGNITION_a5ert8 "n/a"^^xsd:string ;
+    niiri:SRS_COMMUNICATION_imhvs7 "n/a"^^xsd:string ;
+    niiri:SRS_MANNERISMS_2kucoa0 "n/a"^^xsd:string ;
+    niiri:SRS_MOTIVATION_3s8sv7f "n/a"^^xsd:string ;
+    niiri:SRS_RAW_TOTAL_lsdbk6 "n/a"^^xsd:string ;
+    niiri:SRS_VERSION_30t4622 "n/a"^^xsd:string ;
+    niiri:VINELAND_ABC_STANDARD_27jkt11 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNICATION_STANDARD_1rflic9 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNITY_V_SCALED_2adnkvh "n/a"^^xsd:string ;
+    niiri:VINELAND_COPING_V_SCALED_2ta4nrq "n/a"^^xsd:string ;
+    niiri:VINELAND_DAILYLVNG_STANDARD_9a1d10 "n/a"^^xsd:string ;
+    niiri:VINELAND_DOMESTIC_V_SCALED_741f6r "n/a"^^xsd:string ;
+    niiri:VINELAND_EXPRESSIVE_V_SCALED_8ge26o "n/a"^^xsd:string ;
+    niiri:VINELAND_INFORMANT_9u7b34 "n/a"^^xsd:string ;
+    niiri:VINELAND_INTERPERSONAL_V_SCALED_plsac5 "n/a"^^xsd:string ;
+    niiri:VINELAND_PERSONAL_V_SCALED_2gdu4se "n/a"^^xsd:string ;
+    niiri:VINELAND_PLAY_V_SCALED_3mr39cn "n/a"^^xsd:string ;
+    niiri:VINELAND_RECEPTIVE_V_SCALED_2b1lrgk "n/a"^^xsd:string ;
+    niiri:VINELAND_SOCIAL_STANDARD_17dh0uu "n/a"^^xsd:string ;
+    niiri:VINELAND_SUM_SCORES_23bbap2 "n/a"^^xsd:string ;
+    niiri:VINELAND_WRITTEN_V_SCALED_3po7d9s "n/a"^^xsd:string ;
+    niiri:VIQ_1gebme1 "n/a"^^xsd:string ;
+    niiri:VIQ_TEST_TYPE_qrmtpq "n/a"^^xsd:string ;
+    niiri:WISC_IV_BLK_DSN_SCALED_3ubmhqc "n/a"^^xsd:string ;
+    niiri:WISC_IV_CODING_SCALED_37ecur2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_DIGIT_SPAN_SCALED_73ek5j "n/a"^^xsd:string ;
+    niiri:WISC_IV_INFO_SCALED_3lbkoea "n/a"^^xsd:string ;
+    niiri:WISC_IV_LET_NUM_SCALED_1ab27c0 "n/a"^^xsd:string ;
+    niiri:WISC_IV_MATRIX_SCALED_3h92ipg "n/a"^^xsd:string ;
+    niiri:WISC_IV_PIC_CON_SCALED_12cnh5v "n/a"^^xsd:string ;
+    niiri:WISC_IV_PRI_1g71b4e "n/a"^^xsd:string ;
+    niiri:WISC_IV_PSI_4j3l8 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SIM_SCALED_1rn7gg2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SYM_SCALED_17fq60e "n/a"^^xsd:string ;
+    niiri:WISC_IV_VCI_1jfevqg "n/a"^^xsd:string ;
+    niiri:WISC_IV_VOCAB_SCALED_v9a1vr "n/a"^^xsd:string ;
+    niiri:WISC_IV_WMI_3qv4vma "n/a"^^xsd:string ;
+    nfo:filename "participants.tsv"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/participants.tsv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ffde67e8-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:bff01786-79fc-11f0-8c4c-d404e67489a0 a onli:assessment-instrument,
+        nidm_1:AcquisitionObject,
+        prov:Entity ;
+    niiri:ADI_RRB_TOTAL_C_39e194u "n/a"^^xsd:string ;
+    niiri:ADI_R_ONSET_TOTAL_D_1qgt2e2 "n/a"^^xsd:string ;
+    niiri:ADI_R_RSRCH_RELIABLE_341n10r "n/a"^^xsd:string ;
+    niiri:ADI_R_SOCIAL_TOTAL_A_2k6d347 "n/a"^^xsd:string ;
+    niiri:ADI_R_VERBAL_TOTAL_BV_2ms3m15 "n/a"^^xsd:string ;
+    niiri:ADOS_COMM_ckvacd "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_RRB_1cufrb4 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SEVERITY_374m2ib "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SOCAFFECT_2tddcs1 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_TOTAL_3hrnrne "n/a"^^xsd:string ;
+    niiri:ADOS_MODULE_3git99l "n/a"^^xsd:string ;
+    niiri:ADOS_RSRCH_RELIABLE_34qh1g3 "n/a"^^xsd:string ;
+    niiri:ADOS_SOCIAL_38pkjeg "n/a"^^xsd:string ;
+    niiri:ADOS_STEREO_BEHAV_18dfgm7 "n/a"^^xsd:string ;
+    niiri:ADOS_TOTAL_3jsgd0v "n/a"^^xsd:string ;
+    niiri:AGE_AT_MPRAGE_2caeq2h "n/a"^^xsd:string ;
+    niiri:AGE_AT_SCAN_sp10mb "42"^^xsd:string ;
+    niiri:AQ_TOTAL_1u0c4aa "n/a"^^xsd:string ;
+    niiri:BMI_36rj13t "n/a"^^xsd:string ;
+    niiri:COMORBIDITY_22kfqgu "n/a"^^xsd:string ;
+    niiri:CURRENT_MED_STATUS_3jhl88k "0"^^xsd:string ;
+    niiri:DSM_IV_TR_3s1uipu "2"^^xsd:string ;
+    niiri:DX_GROUP_2ftcrn7 "1"^^xsd:string ;
+    niiri:EYE_STATUS_AT_SCAN_33h63sq "2"^^xsd:string ;
+    niiri:FIQ_TEST_TYPE_1kdihag "WST"^^xsd:string ;
+    niiri:FIQ_pc649q "114"^^xsd:string ;
+    niiri:HANDEDNESS_CATEGORY_2jk2o1n "R"^^xsd:string ;
+    niiri:HANDEDNESS_SCORES_2t52ulb "n/a"^^xsd:string ;
+    niiri:MEDICATION_NAME_14joir4 "n/a"^^xsd:string ;
+    niiri:OFF_STIMULANTS_AT_SCAN_2sfu3d "n/a"^^xsd:string ;
+    niiri:PIQ_3pq2kt8 "n/a"^^xsd:string ;
+    niiri:PIQ_TEST_TYPE_17ldg7d "n/a"^^xsd:string ;
+    niiri:SCQ_TOTAL_3e093c4 "n/a"^^xsd:string ;
+    niiri:SEX_28dvfs7 "1"^^xsd:string ;
+    niiri:SRS_AWARENESS_3tv2218 "n/a"^^xsd:string ;
+    niiri:SRS_COGNITION_a5ert8 "n/a"^^xsd:string ;
+    niiri:SRS_COMMUNICATION_imhvs7 "n/a"^^xsd:string ;
+    niiri:SRS_MANNERISMS_2kucoa0 "n/a"^^xsd:string ;
+    niiri:SRS_MOTIVATION_3s8sv7f "n/a"^^xsd:string ;
+    niiri:SRS_RAW_TOTAL_lsdbk6 "n/a"^^xsd:string ;
+    niiri:SRS_VERSION_30t4622 "n/a"^^xsd:string ;
+    niiri:VINELAND_ABC_STANDARD_27jkt11 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNICATION_STANDARD_1rflic9 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNITY_V_SCALED_2adnkvh "n/a"^^xsd:string ;
+    niiri:VINELAND_COPING_V_SCALED_2ta4nrq "n/a"^^xsd:string ;
+    niiri:VINELAND_DAILYLVNG_STANDARD_9a1d10 "n/a"^^xsd:string ;
+    niiri:VINELAND_DOMESTIC_V_SCALED_741f6r "n/a"^^xsd:string ;
+    niiri:VINELAND_EXPRESSIVE_V_SCALED_8ge26o "n/a"^^xsd:string ;
+    niiri:VINELAND_INFORMANT_9u7b34 "n/a"^^xsd:string ;
+    niiri:VINELAND_INTERPERSONAL_V_SCALED_plsac5 "n/a"^^xsd:string ;
+    niiri:VINELAND_PERSONAL_V_SCALED_2gdu4se "n/a"^^xsd:string ;
+    niiri:VINELAND_PLAY_V_SCALED_3mr39cn "n/a"^^xsd:string ;
+    niiri:VINELAND_RECEPTIVE_V_SCALED_2b1lrgk "n/a"^^xsd:string ;
+    niiri:VINELAND_SOCIAL_STANDARD_17dh0uu "n/a"^^xsd:string ;
+    niiri:VINELAND_SUM_SCORES_23bbap2 "n/a"^^xsd:string ;
+    niiri:VINELAND_WRITTEN_V_SCALED_3po7d9s "n/a"^^xsd:string ;
+    niiri:VIQ_1gebme1 "n/a"^^xsd:string ;
+    niiri:VIQ_TEST_TYPE_qrmtpq "n/a"^^xsd:string ;
+    niiri:WISC_IV_BLK_DSN_SCALED_3ubmhqc "n/a"^^xsd:string ;
+    niiri:WISC_IV_CODING_SCALED_37ecur2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_DIGIT_SPAN_SCALED_73ek5j "n/a"^^xsd:string ;
+    niiri:WISC_IV_INFO_SCALED_3lbkoea "n/a"^^xsd:string ;
+    niiri:WISC_IV_LET_NUM_SCALED_1ab27c0 "n/a"^^xsd:string ;
+    niiri:WISC_IV_MATRIX_SCALED_3h92ipg "n/a"^^xsd:string ;
+    niiri:WISC_IV_PIC_CON_SCALED_12cnh5v "n/a"^^xsd:string ;
+    niiri:WISC_IV_PRI_1g71b4e "n/a"^^xsd:string ;
+    niiri:WISC_IV_PSI_4j3l8 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SIM_SCALED_1rn7gg2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SYM_SCALED_17fq60e "n/a"^^xsd:string ;
+    niiri:WISC_IV_VCI_1jfevqg "n/a"^^xsd:string ;
+    niiri:WISC_IV_VOCAB_SCALED_v9a1vr "n/a"^^xsd:string ;
+    niiri:WISC_IV_WMI_3qv4vma "n/a"^^xsd:string ;
+    nfo:filename "participants.tsv"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/participants.tsv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:dff015ce-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:dfcc420c-79fc-11f0-8c4c-d404e67489a0 a onli:assessment-instrument,
+        nidm_1:AcquisitionObject,
+        prov:Entity ;
+    niiri:ADI_RRB_TOTAL_C_39e194u "n/a"^^xsd:string ;
+    niiri:ADI_R_ONSET_TOTAL_D_1qgt2e2 "n/a"^^xsd:string ;
+    niiri:ADI_R_RSRCH_RELIABLE_341n10r "n/a"^^xsd:string ;
+    niiri:ADI_R_SOCIAL_TOTAL_A_2k6d347 "n/a"^^xsd:string ;
+    niiri:ADI_R_VERBAL_TOTAL_BV_2ms3m15 "n/a"^^xsd:string ;
+    niiri:ADOS_COMM_ckvacd "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_RRB_1cufrb4 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SEVERITY_374m2ib "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SOCAFFECT_2tddcs1 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_TOTAL_3hrnrne "n/a"^^xsd:string ;
+    niiri:ADOS_MODULE_3git99l "n/a"^^xsd:string ;
+    niiri:ADOS_RSRCH_RELIABLE_34qh1g3 "n/a"^^xsd:string ;
+    niiri:ADOS_SOCIAL_38pkjeg "n/a"^^xsd:string ;
+    niiri:ADOS_STEREO_BEHAV_18dfgm7 "n/a"^^xsd:string ;
+    niiri:ADOS_TOTAL_3jsgd0v "n/a"^^xsd:string ;
+    niiri:AGE_AT_MPRAGE_2caeq2h "n/a"^^xsd:string ;
+    niiri:AGE_AT_SCAN_sp10mb "29"^^xsd:string ;
+    niiri:AQ_TOTAL_1u0c4aa "n/a"^^xsd:string ;
+    niiri:BMI_36rj13t "n/a"^^xsd:string ;
+    niiri:COMORBIDITY_22kfqgu "n/a"^^xsd:string ;
+    niiri:CURRENT_MED_STATUS_3jhl88k "0"^^xsd:string ;
+    niiri:DSM_IV_TR_3s1uipu "2"^^xsd:string ;
+    niiri:DX_GROUP_2ftcrn7 "1"^^xsd:string ;
+    niiri:EYE_STATUS_AT_SCAN_33h63sq "2"^^xsd:string ;
+    niiri:FIQ_TEST_TYPE_1kdihag "WST"^^xsd:string ;
+    niiri:FIQ_pc649q "122"^^xsd:string ;
+    niiri:HANDEDNESS_CATEGORY_2jk2o1n "L"^^xsd:string ;
+    niiri:HANDEDNESS_SCORES_2t52ulb "n/a"^^xsd:string ;
+    niiri:MEDICATION_NAME_14joir4 "n/a"^^xsd:string ;
+    niiri:OFF_STIMULANTS_AT_SCAN_2sfu3d "n/a"^^xsd:string ;
+    niiri:PIQ_3pq2kt8 "n/a"^^xsd:string ;
+    niiri:PIQ_TEST_TYPE_17ldg7d "n/a"^^xsd:string ;
+    niiri:SCQ_TOTAL_3e093c4 "n/a"^^xsd:string ;
+    niiri:SEX_28dvfs7 "1"^^xsd:string ;
+    niiri:SRS_AWARENESS_3tv2218 "n/a"^^xsd:string ;
+    niiri:SRS_COGNITION_a5ert8 "n/a"^^xsd:string ;
+    niiri:SRS_COMMUNICATION_imhvs7 "n/a"^^xsd:string ;
+    niiri:SRS_MANNERISMS_2kucoa0 "n/a"^^xsd:string ;
+    niiri:SRS_MOTIVATION_3s8sv7f "n/a"^^xsd:string ;
+    niiri:SRS_RAW_TOTAL_lsdbk6 "n/a"^^xsd:string ;
+    niiri:SRS_VERSION_30t4622 "n/a"^^xsd:string ;
+    niiri:VINELAND_ABC_STANDARD_27jkt11 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNICATION_STANDARD_1rflic9 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNITY_V_SCALED_2adnkvh "n/a"^^xsd:string ;
+    niiri:VINELAND_COPING_V_SCALED_2ta4nrq "n/a"^^xsd:string ;
+    niiri:VINELAND_DAILYLVNG_STANDARD_9a1d10 "n/a"^^xsd:string ;
+    niiri:VINELAND_DOMESTIC_V_SCALED_741f6r "n/a"^^xsd:string ;
+    niiri:VINELAND_EXPRESSIVE_V_SCALED_8ge26o "n/a"^^xsd:string ;
+    niiri:VINELAND_INFORMANT_9u7b34 "n/a"^^xsd:string ;
+    niiri:VINELAND_INTERPERSONAL_V_SCALED_plsac5 "n/a"^^xsd:string ;
+    niiri:VINELAND_PERSONAL_V_SCALED_2gdu4se "n/a"^^xsd:string ;
+    niiri:VINELAND_PLAY_V_SCALED_3mr39cn "n/a"^^xsd:string ;
+    niiri:VINELAND_RECEPTIVE_V_SCALED_2b1lrgk "n/a"^^xsd:string ;
+    niiri:VINELAND_SOCIAL_STANDARD_17dh0uu "n/a"^^xsd:string ;
+    niiri:VINELAND_SUM_SCORES_23bbap2 "n/a"^^xsd:string ;
+    niiri:VINELAND_WRITTEN_V_SCALED_3po7d9s "n/a"^^xsd:string ;
+    niiri:VIQ_1gebme1 "n/a"^^xsd:string ;
+    niiri:VIQ_TEST_TYPE_qrmtpq "n/a"^^xsd:string ;
+    niiri:WISC_IV_BLK_DSN_SCALED_3ubmhqc "n/a"^^xsd:string ;
+    niiri:WISC_IV_CODING_SCALED_37ecur2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_DIGIT_SPAN_SCALED_73ek5j "n/a"^^xsd:string ;
+    niiri:WISC_IV_INFO_SCALED_3lbkoea "n/a"^^xsd:string ;
+    niiri:WISC_IV_LET_NUM_SCALED_1ab27c0 "n/a"^^xsd:string ;
+    niiri:WISC_IV_MATRIX_SCALED_3h92ipg "n/a"^^xsd:string ;
+    niiri:WISC_IV_PIC_CON_SCALED_12cnh5v "n/a"^^xsd:string ;
+    niiri:WISC_IV_PRI_1g71b4e "n/a"^^xsd:string ;
+    niiri:WISC_IV_PSI_4j3l8 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SIM_SCALED_1rn7gg2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SYM_SCALED_17fq60e "n/a"^^xsd:string ;
+    niiri:WISC_IV_VCI_1jfevqg "n/a"^^xsd:string ;
+    niiri:WISC_IV_VOCAB_SCALED_v9a1vr "n/a"^^xsd:string ;
+    niiri:WISC_IV_WMI_3qv4vma "n/a"^^xsd:string ;
+    nfo:filename "participants.tsv"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/participants.tsv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:afcc4036-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:fffa7b2c-79fc-11f0-8c4c-d404e67489a0 a onli:assessment-instrument,
+        nidm_1:AcquisitionObject,
+        prov:Entity ;
+    niiri:ADI_RRB_TOTAL_C_39e194u "n/a"^^xsd:string ;
+    niiri:ADI_R_ONSET_TOTAL_D_1qgt2e2 "n/a"^^xsd:string ;
+    niiri:ADI_R_RSRCH_RELIABLE_341n10r "n/a"^^xsd:string ;
+    niiri:ADI_R_SOCIAL_TOTAL_A_2k6d347 "n/a"^^xsd:string ;
+    niiri:ADI_R_VERBAL_TOTAL_BV_2ms3m15 "n/a"^^xsd:string ;
+    niiri:ADOS_COMM_ckvacd "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_RRB_1cufrb4 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SEVERITY_374m2ib "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_SOCAFFECT_2tddcs1 "n/a"^^xsd:string ;
+    niiri:ADOS_GOTHAM_TOTAL_3hrnrne "n/a"^^xsd:string ;
+    niiri:ADOS_MODULE_3git99l "n/a"^^xsd:string ;
+    niiri:ADOS_RSRCH_RELIABLE_34qh1g3 "n/a"^^xsd:string ;
+    niiri:ADOS_SOCIAL_38pkjeg "n/a"^^xsd:string ;
+    niiri:ADOS_STEREO_BEHAV_18dfgm7 "n/a"^^xsd:string ;
+    niiri:ADOS_TOTAL_3jsgd0v "n/a"^^xsd:string ;
+    niiri:AGE_AT_MPRAGE_2caeq2h "n/a"^^xsd:string ;
+    niiri:AGE_AT_SCAN_sp10mb "58"^^xsd:string ;
+    niiri:AQ_TOTAL_1u0c4aa "n/a"^^xsd:string ;
+    niiri:BMI_36rj13t "n/a"^^xsd:string ;
+    niiri:COMORBIDITY_22kfqgu "n/a"^^xsd:string ;
+    niiri:CURRENT_MED_STATUS_3jhl88k "0"^^xsd:string ;
+    niiri:DSM_IV_TR_3s1uipu "2"^^xsd:string ;
+    niiri:DX_GROUP_2ftcrn7 "1"^^xsd:string ;
+    niiri:EYE_STATUS_AT_SCAN_33h63sq "2"^^xsd:string ;
+    niiri:FIQ_TEST_TYPE_1kdihag "WST"^^xsd:string ;
+    niiri:FIQ_pc649q "129"^^xsd:string ;
+    niiri:HANDEDNESS_CATEGORY_2jk2o1n "R"^^xsd:string ;
+    niiri:HANDEDNESS_SCORES_2t52ulb "n/a"^^xsd:string ;
+    niiri:MEDICATION_NAME_14joir4 "n/a"^^xsd:string ;
+    niiri:OFF_STIMULANTS_AT_SCAN_2sfu3d "n/a"^^xsd:string ;
+    niiri:PIQ_3pq2kt8 "n/a"^^xsd:string ;
+    niiri:PIQ_TEST_TYPE_17ldg7d "n/a"^^xsd:string ;
+    niiri:SCQ_TOTAL_3e093c4 "n/a"^^xsd:string ;
+    niiri:SEX_28dvfs7 "1"^^xsd:string ;
+    niiri:SRS_AWARENESS_3tv2218 "n/a"^^xsd:string ;
+    niiri:SRS_COGNITION_a5ert8 "n/a"^^xsd:string ;
+    niiri:SRS_COMMUNICATION_imhvs7 "n/a"^^xsd:string ;
+    niiri:SRS_MANNERISMS_2kucoa0 "n/a"^^xsd:string ;
+    niiri:SRS_MOTIVATION_3s8sv7f "n/a"^^xsd:string ;
+    niiri:SRS_RAW_TOTAL_lsdbk6 "n/a"^^xsd:string ;
+    niiri:SRS_VERSION_30t4622 "n/a"^^xsd:string ;
+    niiri:VINELAND_ABC_STANDARD_27jkt11 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNICATION_STANDARD_1rflic9 "n/a"^^xsd:string ;
+    niiri:VINELAND_COMMUNITY_V_SCALED_2adnkvh "n/a"^^xsd:string ;
+    niiri:VINELAND_COPING_V_SCALED_2ta4nrq "n/a"^^xsd:string ;
+    niiri:VINELAND_DAILYLVNG_STANDARD_9a1d10 "n/a"^^xsd:string ;
+    niiri:VINELAND_DOMESTIC_V_SCALED_741f6r "n/a"^^xsd:string ;
+    niiri:VINELAND_EXPRESSIVE_V_SCALED_8ge26o "n/a"^^xsd:string ;
+    niiri:VINELAND_INFORMANT_9u7b34 "n/a"^^xsd:string ;
+    niiri:VINELAND_INTERPERSONAL_V_SCALED_plsac5 "n/a"^^xsd:string ;
+    niiri:VINELAND_PERSONAL_V_SCALED_2gdu4se "n/a"^^xsd:string ;
+    niiri:VINELAND_PLAY_V_SCALED_3mr39cn "n/a"^^xsd:string ;
+    niiri:VINELAND_RECEPTIVE_V_SCALED_2b1lrgk "n/a"^^xsd:string ;
+    niiri:VINELAND_SOCIAL_STANDARD_17dh0uu "n/a"^^xsd:string ;
+    niiri:VINELAND_SUM_SCORES_23bbap2 "n/a"^^xsd:string ;
+    niiri:VINELAND_WRITTEN_V_SCALED_3po7d9s "n/a"^^xsd:string ;
+    niiri:VIQ_1gebme1 "n/a"^^xsd:string ;
+    niiri:VIQ_TEST_TYPE_qrmtpq "n/a"^^xsd:string ;
+    niiri:WISC_IV_BLK_DSN_SCALED_3ubmhqc "n/a"^^xsd:string ;
+    niiri:WISC_IV_CODING_SCALED_37ecur2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_DIGIT_SPAN_SCALED_73ek5j "n/a"^^xsd:string ;
+    niiri:WISC_IV_INFO_SCALED_3lbkoea "n/a"^^xsd:string ;
+    niiri:WISC_IV_LET_NUM_SCALED_1ab27c0 "n/a"^^xsd:string ;
+    niiri:WISC_IV_MATRIX_SCALED_3h92ipg "n/a"^^xsd:string ;
+    niiri:WISC_IV_PIC_CON_SCALED_12cnh5v "n/a"^^xsd:string ;
+    niiri:WISC_IV_PRI_1g71b4e "n/a"^^xsd:string ;
+    niiri:WISC_IV_PSI_4j3l8 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SIM_SCALED_1rn7gg2 "n/a"^^xsd:string ;
+    niiri:WISC_IV_SYM_SCALED_17fq60e "n/a"^^xsd:string ;
+    niiri:WISC_IV_VCI_1jfevqg "n/a"^^xsd:string ;
+    niiri:WISC_IV_VOCAB_SCALED_v9a1vr "n/a"^^xsd:string ;
+    niiri:WISC_IV_WMI_3qv4vma "n/a"^^xsd:string ;
+    nfo:filename "participants.tsv"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide1/MaxMun_b/participants.tsv"^^xsd:string ;
+    prov:wasGeneratedBy niiri:dffa7992-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0083794-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a007a64e-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cfcc445a-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a01e7bbc-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a007a64e-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cfcc445a-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a044a288-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0443898-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ffd5a388-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a05b4cf4-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0443898-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ffd5a388-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a078f826-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0788e90-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bfde6b62-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a08a40f4-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0788e90-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bfde6b62-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a0ac54aa-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0abebc8-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cfe744a8-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a0bfc3dc-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0abebc8-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cfe744a8-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a0db36c6-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0daca60-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:eff01998-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a0eda784-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a0daca60-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:eff01998-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a109b23a-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a1094872-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:dffa7d3e-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a11fab80-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a1094872-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:dffa7d3e-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:afcc4036-79fc-11f0-8c4c-d404e67489a0 a onli:instrument-based-assessment,
+        nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:dfcc3c6c-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cfcc445a-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:afd5a040-79fc-11f0-8c4c-d404e67489a0 a onli:instrument-based-assessment,
+        nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:cfd59d34-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ffd5a388-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:aff012a4-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:bffa767c-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:cfd59d34-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:cfe74124-79fc-11f0-8c4c-d404e67489a0 a onli:instrument-based-assessment,
+        nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:dfe73e18-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cfe744a8-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:dfcc3c6c-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:dfe73e18-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:dff015ce-79fc-11f0-8c4c-d404e67489a0 a onli:instrument-based-assessment,
+        nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:aff012a4-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:eff01998-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:dffa7992-79fc-11f0-8c4c-d404e67489a0 a onli:instrument-based-assessment,
+        nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bffa767c-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:dffa7d3e-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ffde64d2-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:ffde67e8-79fc-11f0-8c4c-d404e67489a0 a onli:instrument-based-assessment,
+        nidm_1:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ffde64d2-79fc-11f0-8c4c-d404e67489a0 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:bfde6b62-79fc-11f0-8c4c-d404e67489a0 ;
+            prov:hadRole sio:Subject ] .
+
+term_src_subject_id: a prov:Entity ;
+    rdfs:label "src_subject_id" .
+
+niiri:a007a64e-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0443898-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0788e90-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0abebc8-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a0daca60-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+niiri:a1094872-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 .
+
+term_BehavioralInstrument: a prov:Entity ;
+    rdfs:label "Behavioral Instrument"^^xsd:string,
+        "Behavioral Instrument" .
+
+term_ilx_0101292: a prov:Entity ;
+    rdfs:label "Biological sex"^^xsd:string,
+        "Biological sex" .
+
+term_ilx_0739359: a prov:Entity ;
+    rdfs:label "verbal intelligence quotient"^^xsd:string,
+        "verbal intelligence quotient" .
+
+term_ilx_0739363: a prov:Entity ;
+    rdfs:label "performance intelligence quotient"^^xsd:string,
+        "performance intelligence quotient" .
+
+term_ilx_0739365: a prov:Entity ;
+    rdfs:label "full intelligence quotient"^^xsd:string,
+        "full intelligence quotient" .
+
+term_0010_1022: a prov:Entity ;
+    rdfs:label "Patient's Body Mass Index"^^xsd:string,
+        "Patient's Body Mass Index" .
+
+term_ilx_0100400: a prov:Entity ;
+    rdfs:label "Age"^^xsd:string,
+        "Age" .
+
+niiri:bfde6b62-79fc-11f0-8c4c-d404e67489a0 a prov:Agent,
+        prov:Person ;
+    term_src_subject_id: "51324"^^xsd:string .
+
+niiri:cfcc445a-79fc-11f0-8c4c-d404e67489a0 a prov:Agent,
+        prov:Person ;
+    term_src_subject_id: "51322"^^xsd:string .
+
+niiri:cfe744a8-79fc-11f0-8c4c-d404e67489a0 a prov:Agent,
+        prov:Person ;
+    term_src_subject_id: "51325"^^xsd:string .
+
+niiri:dffa7d3e-79fc-11f0-8c4c-d404e67489a0 a prov:Agent,
+        prov:Person ;
+    term_src_subject_id: "51327"^^xsd:string .
+
+niiri:eff01998-79fc-11f0-8c4c-d404e67489a0 a prov:Agent,
+        prov:Person ;
+    term_src_subject_id: "51326"^^xsd:string .
+
+niiri:ffd5a388-79fc-11f0-8c4c-d404e67489a0 a prov:Agent,
+        prov:Person ;
+    term_src_subject_id: "51323"^^xsd:string .
+
+term_Diagnosis: a prov:Entity ;
+    rdfs:label "Diagnosis"^^xsd:string,
+        "Diagnosis" .
+
+term_PATO_0002201: a prov:Entity ;
+    rdfs:label "handedness"^^xsd:string,
+        "handedness" .
+
+niiri:aafab768-79fc-11f0-8c4c-d404e67489a0 a nidm_1:Project,
+        prov:Activity ;
+    dcmitype:title "ABIDE - MaxMun_b"^^xsd:string .
+
+term_CAO_00962: a prov:Entity ;
+    rdfs:label "Autism diagnostic observation schedule"^^xsd:string,
+        "Autism diagnostic observation schedule" .
+
+term_M0000344: a prov:Entity ;
+    rdfs:label "Behavior, Adaptive"^^xsd:string,
+        "Behavior, Adaptive" .
+
+term_CAO_00910: a prov:Entity ;
+    rdfs:label "Wechsler intelligence scale for children - revised"^^xsd:string,
+        "Wechsler intelligence scale for children - revised" .
+
+nidm_1:PersonalDataElement rdfs:subClassOf nidm_1:DataElement .
+

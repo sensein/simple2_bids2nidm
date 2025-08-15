@@ -1,0 +1,3492 @@
+{
+  "site_id": {
+    "label": "Site Identifier",
+    "description": "ABIDE2 site identifier",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "site_id"
+  },
+  "participant_id": {
+    "label": "Participant Identifier",
+    "description": "Unique participant identifier",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "participant_id"
+  },
+  "ndar_guid": {
+    "label": "Ndar Guid",
+    "description": "ABIDE2 ndar_guid variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ndar_guid"
+  },
+  "dx_group": {
+    "label": "Diagnosis Group",
+    "description": "Diagnostic group (1=ASD, 2=TD)",
+    "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "dx_group"
+  },
+  "pdd_dsm_iv_tr": {
+    "label": "Pdd Dsm Iv Tr",
+    "description": "ABIDE2 pdd_dsm_iv_tr variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "pdd_dsm_iv_tr"
+  },
+  "asd_dsm_5": {
+    "label": "Asd Dsm 5",
+    "description": "ABIDE2 asd_dsm_5 variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "asd_dsm_5"
+  },
+  "age_at_scan ": {
+    "label": "Age at Scan",
+    "description": "Age of participant at time of scan",
+    "valueType": "http://www.w3.org/2001/XMLSchema#float",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "age_at_scan "
+  },
+  "sex": {
+    "label": "Sex",
+    "description": "Biological sex of participant",
+    "valueType": "http://www.w3.org/2001/XMLSchema#integer",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "sex"
+  },
+  "handedness_category": {
+    "label": "Handedness Category",
+    "description": "ABIDE2 handedness_category variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "handedness_category"
+  },
+  "handedness_scores": {
+    "label": "Handedness Scores",
+    "description": "ABIDE2 handedness_scores variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "handedness_scores"
+  },
+  "fiq": {
+    "label": "Fiq",
+    "description": "ABIDE2 fiq variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "fiq"
+  },
+  "viq": {
+    "label": "Viq",
+    "description": "ABIDE2 viq variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "viq"
+  },
+  "piq": {
+    "label": "Piq",
+    "description": "ABIDE2 piq variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "piq"
+  },
+  "fiq_test_type": {
+    "label": "Fiq Test Type",
+    "description": "ABIDE2 fiq_test_type variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "fiq_test_type"
+  },
+  "viq_test_type": {
+    "label": "Viq Test Type",
+    "description": "ABIDE2 viq_test_type variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "viq_test_type"
+  },
+  "piq_test_type": {
+    "label": "Piq Test Type",
+    "description": "ABIDE2 piq_test_type variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "piq_test_type"
+  },
+  "adi_r_social_total_a": {
+    "label": "Adi R Social Total A",
+    "description": "ABIDE2 adi_r_social_total_a variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_social_total_a"
+  },
+  "adi_r_verbal_total_bv": {
+    "label": "Adi R Verbal Total Bv",
+    "description": "ABIDE2 adi_r_verbal_total_bv variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_verbal_total_bv"
+  },
+  "adi_r_nonverbal_total_bv": {
+    "label": "Adi R Nonverbal Total Bv",
+    "description": "ABIDE2 adi_r_nonverbal_total_bv variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_nonverbal_total_bv"
+  },
+  "adi_r_rrb_total_c": {
+    "label": "Adi R Rrb Total C",
+    "description": "ABIDE2 adi_r_rrb_total_c variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_rrb_total_c"
+  },
+  "adi_r_onset_total_d": {
+    "label": "Adi R Onset Total D",
+    "description": "ABIDE2 adi_r_onset_total_d variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_onset_total_d"
+  },
+  "adi_r_rsrch_reliable": {
+    "label": "Adi R Rsrch Reliable",
+    "description": "ABIDE2 adi_r_rsrch_reliable variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_rsrch_reliable"
+  },
+  "ados_module": {
+    "label": "Ados Module",
+    "description": "ABIDE2 ados_module variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_module"
+  },
+  "ados_rsrch_reliable": {
+    "label": "Ados Rsrch Reliable",
+    "description": "ABIDE2 ados_rsrch_reliable variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_rsrch_reliable"
+  },
+  "ados_g_total": {
+    "label": "Ados G Total",
+    "description": "ABIDE2 ados_g_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_g_total"
+  },
+  "ados_g_comm": {
+    "label": "Ados G Comm",
+    "description": "ABIDE2 ados_g_comm variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_g_comm"
+  },
+  "ados_g_social": {
+    "label": "Ados G Social",
+    "description": "ABIDE2 ados_g_social variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_g_social"
+  },
+  "ados_g_stereo_behav": {
+    "label": "Ados G Stereo Behav",
+    "description": "ABIDE2 ados_g_stereo_behav variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_g_stereo_behav"
+  },
+  "ados_g_creativity": {
+    "label": "Ados G Creativity",
+    "description": "ABIDE2 ados_g_creativity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_g_creativity"
+  },
+  "ados_2_socaffect": {
+    "label": "Ados 2 Socaffect",
+    "description": "ABIDE2 ados_2_socaffect variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_2_socaffect"
+  },
+  "ados_2_rrb": {
+    "label": "Ados 2 Rrb",
+    "description": "ABIDE2 ados_2_rrb variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_2_rrb"
+  },
+  "ados_2_total": {
+    "label": "Ados 2 Total",
+    "description": "ABIDE2 ados_2_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_2_total"
+  },
+  "ados_2_severity_total": {
+    "label": "Ados 2 Severity Total",
+    "description": "ABIDE2 ados_2_severity_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "ados_2_severity_total"
+  },
+  "srs_edition": {
+    "label": "Srs Edition",
+    "description": "ABIDE2 srs_edition variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_edition"
+  },
+  "srs_version": {
+    "label": "Srs Version",
+    "description": "ABIDE2 srs_version variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_version"
+  },
+  "srs_informant": {
+    "label": "Srs Informant",
+    "description": "ABIDE2 srs_informant variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_informant"
+  },
+  "srs_total_raw": {
+    "label": "Srs Total Raw",
+    "description": "ABIDE2 srs_total_raw variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_total_raw"
+  },
+  "srs_awareness_raw": {
+    "label": "Srs Awareness Raw",
+    "description": "ABIDE2 srs_awareness_raw variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_awareness_raw"
+  },
+  "srs_cognition_raw": {
+    "label": "Srs Cognition Raw",
+    "description": "ABIDE2 srs_cognition_raw variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_cognition_raw"
+  },
+  "srs_communication_raw": {
+    "label": "Srs Communication Raw",
+    "description": "ABIDE2 srs_communication_raw variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_communication_raw"
+  },
+  "srs_motivation_raw": {
+    "label": "Srs Motivation Raw",
+    "description": "ABIDE2 srs_motivation_raw variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_motivation_raw"
+  },
+  "srs_mannerisms_raw": {
+    "label": "Srs Mannerisms Raw",
+    "description": "ABIDE2 srs_mannerisms_raw variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_mannerisms_raw"
+  },
+  "srs_total_t": {
+    "label": "Srs Total T",
+    "description": "ABIDE2 srs_total_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_total_t"
+  },
+  "srs_awareness_t": {
+    "label": "Srs Awareness T",
+    "description": "ABIDE2 srs_awareness_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_awareness_t"
+  },
+  "srs_cognition_t": {
+    "label": "Srs Cognition T",
+    "description": "ABIDE2 srs_cognition_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_cognition_t"
+  },
+  "srs_communication_t": {
+    "label": "Srs Communication T",
+    "description": "ABIDE2 srs_communication_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_communication_t"
+  },
+  "srs_motivation_t": {
+    "label": "Srs Motivation T",
+    "description": "ABIDE2 srs_motivation_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_motivation_t"
+  },
+  "srs_mannerisms_t": {
+    "label": "Srs Mannerisms T",
+    "description": "ABIDE2 srs_mannerisms_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "srs_mannerisms_t"
+  },
+  "scq_version": {
+    "label": "Scq Version",
+    "description": "ABIDE2 scq_version variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "scq_version"
+  },
+  "scq_total": {
+    "label": "Scq Total",
+    "description": "ABIDE2 scq_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "scq_total"
+  },
+  "aq_total": {
+    "label": "Aq Total",
+    "description": "ABIDE2 aq_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "aq_total"
+  },
+  "nonasd_psydx_icd9code": {
+    "label": "Nonasd Psydx Icd9Code",
+    "description": "ABIDE2 nonasd_psydx_icd9code variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "nonasd_psydx_icd9code"
+  },
+  "nonasd_psydx_label": {
+    "label": "Nonasd Psydx Label",
+    "description": "ABIDE2 nonasd_psydx_label variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "nonasd_psydx_label"
+  },
+  "current_med_status": {
+    "label": "Current Med Status",
+    "description": "ABIDE2 current_med_status variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "current_med_status"
+  },
+  "current_medication_name": {
+    "label": "Current Medication Name",
+    "description": "ABIDE2 current_medication_name variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "current_medication_name"
+  },
+  "off_stimulants_at_scan": {
+    "label": "Off Stimulants At Scan",
+    "description": "ABIDE2 off_stimulants_at_scan variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "off_stimulants_at_scan"
+  },
+  "eye_status_at_scan": {
+    "label": "Eye Status At Scan",
+    "description": "ABIDE2 eye_status_at_scan variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "eye_status_at_scan"
+  },
+  "age_at_mprage": {
+    "label": "Age At Mprage",
+    "description": "ABIDE2 age_at_mprage variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "age_at_mprage"
+  },
+  "bmi": {
+    "label": "Bmi",
+    "description": "ABIDE2 bmi variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "bmi"
+  },
+  "vineland_receptive_v_scaled": {
+    "label": "Vineland Receptive V Scaled",
+    "description": "ABIDE2 vineland_receptive_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_receptive_v_scaled"
+  },
+  "vineland_expressive_v_scaled": {
+    "label": "Vineland Expressive V Scaled",
+    "description": "ABIDE2 vineland_expressive_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_expressive_v_scaled"
+  },
+  "vineland_written_v_scaled": {
+    "label": "Vineland Written V Scaled",
+    "description": "ABIDE2 vineland_written_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_written_v_scaled"
+  },
+  "vineland_communication_standard": {
+    "label": "Vineland Communication Standard",
+    "description": "ABIDE2 vineland_communication_standard variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_communication_standard"
+  },
+  "vineland_personal_v_scaled": {
+    "label": "Vineland Personal V Scaled",
+    "description": "ABIDE2 vineland_personal_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_personal_v_scaled"
+  },
+  "vineland_domestic_v_scaled": {
+    "label": "Vineland Domestic V Scaled",
+    "description": "ABIDE2 vineland_domestic_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_domestic_v_scaled"
+  },
+  "vineland_community_v_scaled": {
+    "label": "Vineland Community V Scaled",
+    "description": "ABIDE2 vineland_community_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_community_v_scaled"
+  },
+  "vineland_dailyliving_standard": {
+    "label": "Vineland Dailyliving Standard",
+    "description": "ABIDE2 vineland_dailyliving_standard variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_dailyliving_standard"
+  },
+  "vineland_interpersonal_v_scaled": {
+    "label": "Vineland Interpersonal V Scaled",
+    "description": "ABIDE2 vineland_interpersonal_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_interpersonal_v_scaled"
+  },
+  "vineland_play_v_scaled": {
+    "label": "Vineland Play V Scaled",
+    "description": "ABIDE2 vineland_play_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_play_v_scaled"
+  },
+  "vineland_coping_v_scaled": {
+    "label": "Vineland Coping V Scaled",
+    "description": "ABIDE2 vineland_coping_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_coping_v_scaled"
+  },
+  "vineland_social_standard": {
+    "label": "Vineland Social Standard",
+    "description": "ABIDE2 vineland_social_standard variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_social_standard"
+  },
+  "vineland_gross_v_scaled": {
+    "label": "Vineland Gross V Scaled",
+    "description": "ABIDE2 vineland_gross_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_gross_v_scaled"
+  },
+  "vineland_fine_v_scaled": {
+    "label": "Vineland Fine V Scaled",
+    "description": "ABIDE2 vineland_fine_v_scaled variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_fine_v_scaled"
+  },
+  "vineland_motor_standard": {
+    "label": "Vineland Motor Standard",
+    "description": "ABIDE2 vineland_motor_standard variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_motor_standard"
+  },
+  "vineland_sum_scores": {
+    "label": "Vineland Sum Scores",
+    "description": "ABIDE2 vineland_sum_scores variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_sum_scores"
+  },
+  "vineland_abc_standard": {
+    "label": "Vineland Abc Standard",
+    "description": "ABIDE2 vineland_abc_standard variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_abc_standard"
+  },
+  "vineland_informant": {
+    "label": "Vineland Informant",
+    "description": "ABIDE2 vineland_informant variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vineland_informant"
+  },
+  "rbsr_6subscale_stereotyped": {
+    "label": "Rbsr 6Subscale Stereotyped",
+    "description": "ABIDE2 rbsr_6subscale_stereotyped variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_6subscale_stereotyped"
+  },
+  "rbsr_6subscale_self-injurious": {
+    "label": "Rbsr 6Subscale Self-Injurious",
+    "description": "ABIDE2 rbsr_6subscale_self-injurious variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_6subscale_self-injurious"
+  },
+  "rbsr_6subscale_compulsive": {
+    "label": "Rbsr 6Subscale Compulsive",
+    "description": "ABIDE2 rbsr_6subscale_compulsive variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_6subscale_compulsive"
+  },
+  "rbsr_6subscale_ritualistic": {
+    "label": "Rbsr 6Subscale Ritualistic",
+    "description": "ABIDE2 rbsr_6subscale_ritualistic variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_6subscale_ritualistic"
+  },
+  "rbsr_6subscale_sameness": {
+    "label": "Rbsr 6Subscale Sameness",
+    "description": "ABIDE2 rbsr_6subscale_sameness variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_6subscale_sameness"
+  },
+  "rbsr_6subscale_restricted": {
+    "label": "Rbsr 6Subscale Restricted",
+    "description": "ABIDE2 rbsr_6subscale_restricted variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_6subscale_restricted"
+  },
+  "rbsr_6subscale_total": {
+    "label": "Rbsr 6Subscale Total",
+    "description": "ABIDE2 rbsr_6subscale_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_6subscale_total"
+  },
+  "rbsr_5subscale_stereotypic": {
+    "label": "Rbsr 5Subscale Stereotypic",
+    "description": "ABIDE2 rbsr_5subscale_stereotypic variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_5subscale_stereotypic"
+  },
+  "rbsr_5subscale_self-injurious": {
+    "label": "Rbsr 5Subscale Self-Injurious",
+    "description": "ABIDE2 rbsr_5subscale_self-injurious variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_5subscale_self-injurious"
+  },
+  "rbsr_5subscale_compulsive": {
+    "label": "Rbsr 5Subscale Compulsive",
+    "description": "ABIDE2 rbsr_5subscale_compulsive variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_5subscale_compulsive"
+  },
+  "rbsr_5subscale_ritualistic": {
+    "label": "Rbsr 5Subscale Ritualistic",
+    "description": "ABIDE2 rbsr_5subscale_ritualistic variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_5subscale_ritualistic"
+  },
+  "rbsr_5subscale_restricted": {
+    "label": "Rbsr 5Subscale Restricted",
+    "description": "ABIDE2 rbsr_5subscale_restricted variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_5subscale_restricted"
+  },
+  "rbsr_5subscale_total": {
+    "label": "Rbsr 5Subscale Total",
+    "description": "ABIDE2 rbsr_5subscale_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "rbsr_5subscale_total"
+  },
+  "masc_edition": {
+    "label": "Masc Edition",
+    "description": "ABIDE2 masc_edition variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_edition"
+  },
+  "masc_total_t": {
+    "label": "Masc Total T",
+    "description": "ABIDE2 masc_total_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_total_t"
+  },
+  "masc_t/r_t": {
+    "label": "Masc T/R T",
+    "description": "ABIDE2 masc_t/r_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_t/r_t"
+  },
+  "masc_s/a_t": {
+    "label": "Masc S/A T",
+    "description": "ABIDE2 masc_s/a_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_s/a_t"
+  },
+  "masc_physical_total_t": {
+    "label": "Masc Physical Total T",
+    "description": "ABIDE2 masc_physical_total_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_physical_total_t"
+  },
+  "masc_per_t": {
+    "label": "Masc Per T",
+    "description": "ABIDE2 masc_per_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_per_t"
+  },
+  "masc_ac_t": {
+    "label": "Masc Ac T",
+    "description": "ABIDE2 masc_ac_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_ac_t"
+  },
+  "masc_harm_total_t": {
+    "label": "Masc Harm Total T",
+    "description": "ABIDE2 masc_harm_total_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_harm_total_t"
+  },
+  "masc_h/r_t": {
+    "label": "Masc H/R T",
+    "description": "ABIDE2 masc_h/r_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_h/r_t"
+  },
+  "masc_pp_t": {
+    "label": "Masc Pp T",
+    "description": "ABIDE2 masc_pp_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_pp_t"
+  },
+  "masc_social_total_t": {
+    "label": "Masc Social Total T",
+    "description": "ABIDE2 masc_social_total_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_social_total_t"
+  },
+  "masc_sep_t": {
+    "label": "Masc Sep T",
+    "description": "ABIDE2 masc_sep_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_sep_t"
+  },
+  "masc_adi_t": {
+    "label": "Masc Adi T",
+    "description": "ABIDE2 masc_adi_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_adi_t"
+  },
+  "masc_inconsistency_score": {
+    "label": "Masc Inconsistency Score",
+    "description": "ABIDE2 masc_inconsistency_score variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "masc_inconsistency_score"
+  },
+  "brief_version": {
+    "label": "Brief Version",
+    "description": "ABIDE2 brief_version variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_version"
+  },
+  "brief_informant": {
+    "label": "Brief Informant",
+    "description": "ABIDE2 brief_informant variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_informant"
+  },
+  "brief_inhibit_t": {
+    "label": "Brief Inhibit T",
+    "description": "ABIDE2 brief_inhibit_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_inhibit_t"
+  },
+  "brief_shift_t": {
+    "label": "Brief Shift T",
+    "description": "ABIDE2 brief_shift_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_shift_t"
+  },
+  "brief_emotional_t": {
+    "label": "Brief Emotional T",
+    "description": "ABIDE2 brief_emotional_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_emotional_t"
+  },
+  "brief_bri_t": {
+    "label": "Brief Bri T",
+    "description": "ABIDE2 brief_bri_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_bri_t"
+  },
+  "brief_initiate_t": {
+    "label": "Brief Initiate T",
+    "description": "ABIDE2 brief_initiate_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_initiate_t"
+  },
+  "brief_working_t": {
+    "label": "Brief Working T",
+    "description": "ABIDE2 brief_working_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_working_t"
+  },
+  "brief_plan_t": {
+    "label": "Brief Plan T",
+    "description": "ABIDE2 brief_plan_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_plan_t"
+  },
+  "brief_organization_t": {
+    "label": "Brief Organization T",
+    "description": "ABIDE2 brief_organization_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_organization_t"
+  },
+  "brief_monitor_t": {
+    "label": "Brief Monitor T",
+    "description": "ABIDE2 brief_monitor_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_monitor_t"
+  },
+  "brief_mi_t": {
+    "label": "Brief Mi T",
+    "description": "ABIDE2 brief_mi_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_mi_t"
+  },
+  "brief_gec_t": {
+    "label": "Brief Gec T",
+    "description": "ABIDE2 brief_gec_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_gec_t"
+  },
+  "brief_inconsistency_score": {
+    "label": "Brief Inconsistency Score",
+    "description": "ABIDE2 brief_inconsistency_score variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_inconsistency_score"
+  },
+  "brief_negativity_score": {
+    "label": "Brief Negativity Score",
+    "description": "ABIDE2 brief_negativity_score variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "brief_negativity_score"
+  },
+  "cbcl_6-18_activities_t": {
+    "label": "Cbcl 6-18 Activities T",
+    "description": "ABIDE2 cbcl_6-18_activities_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_activities_t"
+  },
+  "cbcl_6-18_social_t": {
+    "label": "Cbcl 6-18 Social T",
+    "description": "ABIDE2 cbcl_6-18_social_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_social_t"
+  },
+  "cbcl_6-18_school_t": {
+    "label": "Cbcl 6-18 School T",
+    "description": "ABIDE2 cbcl_6-18_school_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_school_t"
+  },
+  "cbcl_6-18_total_competence_t": {
+    "label": "Cbcl 6-18 Total Competence T",
+    "description": "ABIDE2 cbcl_6-18_total_competence_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_total_competence_t"
+  },
+  "cbcl_6-18_anxious_t": {
+    "label": "Cbcl 6-18 Anxious T",
+    "description": "ABIDE2 cbcl_6-18_anxious_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_anxious_t"
+  },
+  "cbcl_6-18_withdrawn_t": {
+    "label": "Cbcl 6-18 Withdrawn T",
+    "description": "ABIDE2 cbcl_6-18_withdrawn_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_withdrawn_t"
+  },
+  "cbcl_6-18_somatic_compaint_t": {
+    "label": "Cbcl 6-18 Somatic Compaint T",
+    "description": "ABIDE2 cbcl_6-18_somatic_compaint_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_somatic_compaint_t"
+  },
+  "cbcl_6-18_social_problem_t": {
+    "label": "Cbcl 6-18 Social Problem T",
+    "description": "ABIDE2 cbcl_6-18_social_problem_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_social_problem_t"
+  },
+  "cbcl_6-18_thought_t": {
+    "label": "Cbcl 6-18 Thought T",
+    "description": "ABIDE2 cbcl_6-18_thought_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_thought_t"
+  },
+  "cbcl_6-18_attention_t": {
+    "label": "Cbcl 6-18 Attention T",
+    "description": "ABIDE2 cbcl_6-18_attention_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_attention_t"
+  },
+  "cbcl_6-18_rule_t": {
+    "label": "Cbcl 6-18 Rule T",
+    "description": "ABIDE2 cbcl_6-18_rule_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_rule_t"
+  },
+  "cbcl_6-18_aggressive_t": {
+    "label": "Cbcl 6-18 Aggressive T",
+    "description": "ABIDE2 cbcl_6-18_aggressive_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_aggressive_t"
+  },
+  "cbcl_6-18_internal_t": {
+    "label": "Cbcl 6-18 Internal T",
+    "description": "ABIDE2 cbcl_6-18_internal_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_internal_t"
+  },
+  "cbcl_6-18_external_t": {
+    "label": "Cbcl 6-18 External T",
+    "description": "ABIDE2 cbcl_6-18_external_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_external_t"
+  },
+  "cbcl_6-18_total_problem_t": {
+    "label": "Cbcl 6-18 Total Problem T",
+    "description": "ABIDE2 cbcl_6-18_total_problem_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_total_problem_t"
+  },
+  "cbcl_6-18_affective_t": {
+    "label": "Cbcl 6-18 Affective T",
+    "description": "ABIDE2 cbcl_6-18_affective_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_affective_t"
+  },
+  "cbcl_6-18_anxiety_t": {
+    "label": "Cbcl 6-18 Anxiety T",
+    "description": "ABIDE2 cbcl_6-18_anxiety_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_anxiety_t"
+  },
+  "cbcl_6-18_somatic_problem_t": {
+    "label": "Cbcl 6-18 Somatic Problem T",
+    "description": "ABIDE2 cbcl_6-18_somatic_problem_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_somatic_problem_t"
+  },
+  "cbcl_6-18_attention_deficit_t": {
+    "label": "Cbcl 6-18 Attention Deficit T",
+    "description": "ABIDE2 cbcl_6-18_attention_deficit_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_attention_deficit_t"
+  },
+  "cbcl_6-18_oppositional_t": {
+    "label": "Cbcl 6-18 Oppositional T",
+    "description": "ABIDE2 cbcl_6-18_oppositional_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_oppositional_t"
+  },
+  "cbcl_6-18_conduct_t": {
+    "label": "Cbcl 6-18 Conduct T",
+    "description": "ABIDE2 cbcl_6-18_conduct_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_conduct_t"
+  },
+  "cbcl_6-18_sluggish_t": {
+    "label": "Cbcl 6-18 Sluggish T",
+    "description": "ABIDE2 cbcl_6-18_sluggish_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_sluggish_t"
+  },
+  "cbcl_6-18_obsessive_t": {
+    "label": "Cbcl 6-18 Obsessive T",
+    "description": "ABIDE2 cbcl_6-18_obsessive_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_obsessive_t"
+  },
+  "cbcl_6-18_post_traumatic_t": {
+    "label": "Cbcl 6-18 Post Traumatic T",
+    "description": "ABIDE2 cbcl_6-18_post_traumatic_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_6-18_post_traumatic_t"
+  },
+  "cbcl_1.5-5_emotion_t": {
+    "label": "Cbcl 1.5-5 Emotion T",
+    "description": "ABIDE2 cbcl_1.5-5_emotion_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_emotion_t"
+  },
+  "cbcl_1.5-5_anxious_t": {
+    "label": "Cbcl 1.5-5 Anxious T",
+    "description": "ABIDE2 cbcl_1.5-5_anxious_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_anxious_t"
+  },
+  "cbcl_1.5-5_somantic_t": {
+    "label": "Cbcl 1.5-5 Somantic T",
+    "description": "ABIDE2 cbcl_1.5-5_somantic_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_somantic_t"
+  },
+  "cbcl_1.5-5_withdrawn_t": {
+    "label": "Cbcl 1.5-5 Withdrawn T",
+    "description": "ABIDE2 cbcl_1.5-5_withdrawn_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_withdrawn_t"
+  },
+  "cbcl_1.5-5_sleep_t": {
+    "label": "Cbcl 1.5-5 Sleep T",
+    "description": "ABIDE2 cbcl_1.5-5_sleep_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_sleep_t"
+  },
+  "cbcl_1.5-5_attention_problem_t": {
+    "label": "Cbcl 1.5-5 Attention Problem T",
+    "description": "ABIDE2 cbcl_1.5-5_attention_problem_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_attention_problem_t"
+  },
+  "cbcl_1.5-5_aggressive_t": {
+    "label": "Cbcl 1.5-5 Aggressive T",
+    "description": "ABIDE2 cbcl_1.5-5_aggressive_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_aggressive_t"
+  },
+  "cbcl_1.5-5_internal_t": {
+    "label": "Cbcl 1.5-5 Internal T",
+    "description": "ABIDE2 cbcl_1.5-5_internal_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_internal_t"
+  },
+  "cbcl_1.5-5_external_t": {
+    "label": "Cbcl 1.5-5 External T",
+    "description": "ABIDE2 cbcl_1.5-5_external_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_external_t"
+  },
+  "cbcl_1.5-5_total_t": {
+    "label": "Cbcl 1.5-5 Total T",
+    "description": "ABIDE2 cbcl_1.5-5_total_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_total_t"
+  },
+  "cbcl_1.5-5_stress_t": {
+    "label": "Cbcl 1.5-5 Stress T",
+    "description": "ABIDE2 cbcl_1.5-5_stress_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_stress_t"
+  },
+  "cbcl_1.5-5_affective_t": {
+    "label": "Cbcl 1.5-5 Affective T",
+    "description": "ABIDE2 cbcl_1.5-5_affective_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_affective_t"
+  },
+  "cbcl_1.5-5_anxiety_t": {
+    "label": "Cbcl 1.5-5 Anxiety T",
+    "description": "ABIDE2 cbcl_1.5-5_anxiety_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_anxiety_t"
+  },
+  "cbcl_1.5-5_pervasive_t": {
+    "label": "Cbcl 1.5-5 Pervasive T",
+    "description": "ABIDE2 cbcl_1.5-5_pervasive_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_pervasive_t"
+  },
+  "cbcl_1.5-5_attention_deficit_t": {
+    "label": "Cbcl 1.5-5 Attention Deficit T",
+    "description": "ABIDE2 cbcl_1.5-5_attention_deficit_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_attention_deficit_t"
+  },
+  "cbcl_1.5-5_oppositional_t": {
+    "label": "Cbcl 1.5-5 Oppositional T",
+    "description": "ABIDE2 cbcl_1.5-5_oppositional_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cbcl_1.5-5_oppositional_t"
+  },
+  "bdi_edition": {
+    "label": "Bdi Edition",
+    "description": "ABIDE2 bdi_edition variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "bdi_edition"
+  },
+  "bdi_total": {
+    "label": "Bdi Total",
+    "description": "ABIDE2 bdi_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "bdi_total"
+  },
+  "wiat-ii-a_word_t": {
+    "label": "Wiat-Ii-A Word T",
+    "description": "ABIDE2 wiat-ii-a_word_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "wiat-ii-a_word_t"
+  },
+  "wiat-ii-a_numerical_t": {
+    "label": "Wiat-Ii-A Numerical T",
+    "description": "ABIDE2 wiat-ii-a_numerical_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "wiat-ii-a_numerical_t"
+  },
+  "wiat-ii-a_spelling_t": {
+    "label": "Wiat-Ii-A Spelling T",
+    "description": "ABIDE2 wiat-ii-a_spelling_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "wiat-ii-a_spelling_t"
+  },
+  "wiat-ii-a_total_composite_s": {
+    "label": "Wiat-Ii-A Total Composite S",
+    "description": "ABIDE2 wiat-ii-a_total_composite_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "wiat-ii-a_total_composite_s"
+  },
+  "vmi_edition": {
+    "label": "Vmi Edition",
+    "description": "ABIDE2 vmi_edition variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vmi_edition"
+  },
+  "vmi_vmi_s": {
+    "label": "Vmi Vmi S",
+    "description": "ABIDE2 vmi_vmi_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "vmi_vmi_s"
+  },
+  "celf_edition": {
+    "label": "Celf Edition",
+    "description": "ABIDE2 celf_edition variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "celf_edition"
+  },
+  "celf_5-8_core_s": {
+    "label": "Celf 5-8 Core S",
+    "description": "ABIDE2 celf_5-8_core_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "celf_5-8_core_s"
+  },
+  "celf_5-8_receptive_s": {
+    "label": "Celf 5-8 Receptive S",
+    "description": "ABIDE2 celf_5-8_receptive_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "celf_5-8_receptive_s"
+  },
+  "celf_5-8_expressive_s": {
+    "label": "Celf 5-8 Expressive S",
+    "description": "ABIDE2 celf_5-8_expressive_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "celf_5-8_expressive_s"
+  },
+  "celf_9-21_core_s": {
+    "label": "Celf 9-21 Core S",
+    "description": "ABIDE2 celf_9-21_core_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "celf_9-21_core_s"
+  },
+  "celf_9-21_receptive_s": {
+    "label": "Celf 9-21 Receptive S",
+    "description": "ABIDE2 celf_9-21_receptive_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "celf_9-21_receptive_s"
+  },
+  "celf_9-21_expressive_s": {
+    "label": "Celf 9-21 Expressive S",
+    "description": "ABIDE2 celf_9-21_expressive_s variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "celf_9-21_expressive_s"
+  },
+  "basc2_prs_version": {
+    "label": "Basc2 Prs Version",
+    "description": "ABIDE2 basc2_prs_version variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_version"
+  },
+  "basc2_prs_anger_t": {
+    "label": "Basc2 Prs Anger T",
+    "description": "ABIDE2 basc2_prs_anger_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_anger_t"
+  },
+  "basc2_prs_hyperactivity_t": {
+    "label": "Basc2 Prs Hyperactivity T",
+    "description": "ABIDE2 basc2_prs_hyperactivity_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_hyperactivity_t"
+  },
+  "basc2_prs_aggression_t": {
+    "label": "Basc2 Prs Aggression T",
+    "description": "ABIDE2 basc2_prs_aggression_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_aggression_t"
+  },
+  "basc2_prs_conduct_t": {
+    "label": "Basc2 Prs Conduct T",
+    "description": "ABIDE2 basc2_prs_conduct_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_conduct_t"
+  },
+  "basc2_prs_external_t": {
+    "label": "Basc2 Prs External T",
+    "description": "ABIDE2 basc2_prs_external_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_external_t"
+  },
+  "basc2_prs_external_mean_t": {
+    "label": "Basc2 Prs External Mean T",
+    "description": "ABIDE2 basc2_prs_external_mean_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_external_mean_t"
+  },
+  "basc2_prs_anxiety_t": {
+    "label": "Basc2 Prs Anxiety T",
+    "description": "ABIDE2 basc2_prs_anxiety_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_anxiety_t"
+  },
+  "basc2_prs_depression_t": {
+    "label": "Basc2 Prs Depression T",
+    "description": "ABIDE2 basc2_prs_depression_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_depression_t"
+  },
+  "basc2_prs_somatization_t": {
+    "label": "Basc2 Prs Somatization T",
+    "description": "ABIDE2 basc2_prs_somatization_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_somatization_t"
+  },
+  "basc2_prs_internal_t": {
+    "label": "Basc2 Prs Internal T",
+    "description": "ABIDE2 basc2_prs_internal_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_internal_t"
+  },
+  "basc2_prs_internal_mean_t": {
+    "label": "Basc2 Prs Internal Mean T",
+    "description": "ABIDE2 basc2_prs_internal_mean_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_internal_mean_t"
+  },
+  "basc2_prs_atypicality_t": {
+    "label": "Basc2 Prs Atypicality T",
+    "description": "ABIDE2 basc2_prs_atypicality_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_atypicality_t"
+  },
+  "basc2_prs_withdrawal_t": {
+    "label": "Basc2 Prs Withdrawal T",
+    "description": "ABIDE2 basc2_prs_withdrawal_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_withdrawal_t"
+  },
+  "basc2_prs_attention_t": {
+    "label": "Basc2 Prs Attention T",
+    "description": "ABIDE2 basc2_prs_attention_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_attention_t"
+  },
+  "basc2_prs_bsi_t": {
+    "label": "Basc2 Prs Bsi T",
+    "description": "ABIDE2 basc2_prs_bsi_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_bsi_t"
+  },
+  "basc2_prs_bsi_mean_t": {
+    "label": "Basc2 Prs Bsi Mean T",
+    "description": "ABIDE2 basc2_prs_bsi_mean_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_bsi_mean_t"
+  },
+  "basc2_prs_adaptability_t": {
+    "label": "Basc2 Prs Adaptability T",
+    "description": "ABIDE2 basc2_prs_adaptability_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_adaptability_t"
+  },
+  "basc2_prs_social_t": {
+    "label": "Basc2 Prs Social T",
+    "description": "ABIDE2 basc2_prs_social_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_social_t"
+  },
+  "basc2_prs_leadership_t": {
+    "label": "Basc2 Prs Leadership T",
+    "description": "ABIDE2 basc2_prs_leadership_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_leadership_t"
+  },
+  "basc2_prs_activities_t": {
+    "label": "Basc2 Prs Activities T",
+    "description": "ABIDE2 basc2_prs_activities_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_activities_t"
+  },
+  "basc2_prs_functional_t": {
+    "label": "Basc2 Prs Functional T",
+    "description": "ABIDE2 basc2_prs_functional_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_functional_t"
+  },
+  "basc2_prs_adaptive_t": {
+    "label": "Basc2 Prs Adaptive T",
+    "description": "ABIDE2 basc2_prs_adaptive_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_adaptive_t"
+  },
+  "basc2_prs_adaptive_mean_t": {
+    "label": "Basc2 Prs Adaptive Mean T",
+    "description": "ABIDE2 basc2_prs_adaptive_mean_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_adaptive_mean_t"
+  },
+  "basc2_prs_bully_t": {
+    "label": "Basc2 Prs Bully T",
+    "description": "ABIDE2 basc2_prs_bully_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_bully_t"
+  },
+  "basc2_prs_dsd_t": {
+    "label": "Basc2 Prs Dsd T",
+    "description": "ABIDE2 basc2_prs_dsd_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_dsd_t"
+  },
+  "basc2_prs_emotional_t": {
+    "label": "Basc2 Prs Emotional T",
+    "description": "ABIDE2 basc2_prs_emotional_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_emotional_t"
+  },
+  "basc2_prs_executive_t": {
+    "label": "Basc2 Prs Executive T",
+    "description": "ABIDE2 basc2_prs_executive_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_executive_t"
+  },
+  "basc2_prs_negative_t": {
+    "label": "Basc2 Prs Negative T",
+    "description": "ABIDE2 basc2_prs_negative_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_negative_t"
+  },
+  "basc2_prs_resiliency_t": {
+    "label": "Basc2 Prs Resiliency T",
+    "description": "ABIDE2 basc2_prs_resiliency_t variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "basc2_prs_resiliency_t"
+  },
+  "cprs_opp": {
+    "label": "Cprs Opp",
+    "description": "ABIDE2 cprs_opp variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_opp"
+  },
+  "cprs_cog-inatt": {
+    "label": "Cprs Cog-Inatt",
+    "description": "ABIDE2 cprs_cog-inatt variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_cog-inatt"
+  },
+  "cprs_hyperact": {
+    "label": "Cprs Hyperact",
+    "description": "ABIDE2 cprs_hyperact variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_hyperact"
+  },
+  "cprs_anx_shy": {
+    "label": "Cprs Anx Shy",
+    "description": "ABIDE2 cprs_anx_shy variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_anx_shy"
+  },
+  "cprs_perfect": {
+    "label": "Cprs Perfect",
+    "description": "ABIDE2 cprs_perfect variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_perfect"
+  },
+  "cprs_social_prob": {
+    "label": "Cprs Social Prob",
+    "description": "ABIDE2 cprs_social_prob variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_social_prob"
+  },
+  "cprs_psycho_somatic": {
+    "label": "Cprs Psycho Somatic",
+    "description": "ABIDE2 cprs_psycho_somatic variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_psycho_somatic"
+  },
+  "cprs_conn_adhd": {
+    "label": "Cprs Conn Adhd",
+    "description": "ABIDE2 cprs_conn_adhd variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_conn_adhd"
+  },
+  "cprs_rest_impuls": {
+    "label": "Cprs Rest Impuls",
+    "description": "ABIDE2 cprs_rest_impuls variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_rest_impuls"
+  },
+  "cprs_emot_lability": {
+    "label": "Cprs Emot Lability",
+    "description": "ABIDE2 cprs_emot_lability variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_emot_lability"
+  },
+  "cprs_conn_gi_total": {
+    "label": "Cprs Conn Gi Total",
+    "description": "ABIDE2 cprs_conn_gi_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_conn_gi_total"
+  },
+  "cprs_dsm_iv_inatt": {
+    "label": "Cprs Dsm Iv Inatt",
+    "description": "ABIDE2 cprs_dsm_iv_inatt variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_dsm_iv_inatt"
+  },
+  "cprs_dsm_iv_hyper_impul": {
+    "label": "Cprs Dsm Iv Hyper Impul",
+    "description": "ABIDE2 cprs_dsm_iv_hyper_impul variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_dsm_iv_hyper_impul"
+  },
+  "cprs_dsm_iv_total": {
+    "label": "Cprs Dsm Iv Total",
+    "description": "ABIDE2 cprs_dsm_iv_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_dsm_iv_total"
+  },
+  "cprs_inatt_symptoms": {
+    "label": "Cprs Inatt Symptoms",
+    "description": "ABIDE2 cprs_inatt_symptoms variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_inatt_symptoms"
+  },
+  "cprs_hyper_impul_symptoms": {
+    "label": "Cprs Hyper Impul Symptoms",
+    "description": "ABIDE2 cprs_hyper_impul_symptoms variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "cprs_hyper_impul_symptoms"
+  },
+  "casi_adhd-i_cutoff": {
+    "label": "Casi Adhd-I Cutoff",
+    "description": "ABIDE2 casi_adhd-i_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_adhd-i_cutoff"
+  },
+  "casi_adhd-h_cutoff": {
+    "label": "Casi Adhd-H Cutoff",
+    "description": "ABIDE2 casi_adhd-h_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_adhd-h_cutoff"
+  },
+  "casi_adhd-c_cutoff": {
+    "label": "Casi Adhd-C Cutoff",
+    "description": "ABIDE2 casi_adhd-c_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_adhd-c_cutoff"
+  },
+  "casi_odd_cutoff": {
+    "label": "Casi Odd Cutoff",
+    "description": "ABIDE2 casi_odd_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_odd_cutoff"
+  },
+  "casi_cd_cutoff": {
+    "label": "Casi Cd Cutoff",
+    "description": "ABIDE2 casi_cd_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_cd_cutoff"
+  },
+  "casi_gad_cutoff": {
+    "label": "Casi Gad Cutoff",
+    "description": "ABIDE2 casi_gad_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_gad_cutoff"
+  },
+  "casi_specific_phobia_cutoff": {
+    "label": "Casi Specific Phobia Cutoff",
+    "description": "ABIDE2 casi_specific_phobia_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_specific_phobia_cutoff"
+  },
+  "casi_obsessions_cutoff": {
+    "label": "Casi Obsessions Cutoff",
+    "description": "ABIDE2 casi_obsessions_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_obsessions_cutoff"
+  },
+  "casi_compulsions_cutoff": {
+    "label": "Casi Compulsions Cutoff",
+    "description": "ABIDE2 casi_compulsions_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_compulsions_cutoff"
+  },
+  "casi_ptsd_cutoff": {
+    "label": "Casi Ptsd Cutoff",
+    "description": "ABIDE2 casi_ptsd_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_ptsd_cutoff"
+  },
+  "casi_motor_tics_cutoff": {
+    "label": "Casi Motor Tics Cutoff",
+    "description": "ABIDE2 casi_motor_tics_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_motor_tics_cutoff"
+  },
+  "casi_vocal_tics_cutoff": {
+    "label": "Casi Vocal Tics Cutoff",
+    "description": "ABIDE2 casi_vocal_tics_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_vocal_tics_cutoff"
+  },
+  "casi_social_phobia_cutoff": {
+    "label": "Casi Social Phobia Cutoff",
+    "description": "ABIDE2 casi_social_phobia_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_social_phobia_cutoff"
+  },
+  "casi_separation_cutoff": {
+    "label": "Casi Separation Cutoff",
+    "description": "ABIDE2 casi_separation_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_separation_cutoff"
+  },
+  "casi_schizophrenia_cutoff": {
+    "label": "Casi Schizophrenia Cutoff",
+    "description": "ABIDE2 casi_schizophrenia_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_schizophrenia_cutoff"
+  },
+  "casi_nocturnal_enuresis_cutoff": {
+    "label": "Casi Nocturnal Enuresis Cutoff",
+    "description": "ABIDE2 casi_nocturnal_enuresis_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_nocturnal_enuresis_cutoff"
+  },
+  "casi_enuresis_encopresis_cutoff": {
+    "label": "Casi Enuresis Encopresis Cutoff",
+    "description": "ABIDE2 casi_enuresis_encopresis_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_enuresis_encopresis_cutoff"
+  },
+  "casi_mde_cutoff": {
+    "label": "Casi Mde Cutoff",
+    "description": "ABIDE2 casi_mde_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_mde_cutoff"
+  },
+  "casi_dysthymic_cutoff": {
+    "label": "Casi Dysthymic Cutoff",
+    "description": "ABIDE2 casi_dysthymic_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_dysthymic_cutoff"
+  },
+  "casi_autistic_cutoff": {
+    "label": "Casi Autistic Cutoff",
+    "description": "ABIDE2 casi_autistic_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_autistic_cutoff"
+  },
+  "casi_asperger_cutoff": {
+    "label": "Casi Asperger Cutoff",
+    "description": "ABIDE2 casi_asperger_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_asperger_cutoff"
+  },
+  "casi_aspd_cutoff": {
+    "label": "Casi Aspd Cutoff",
+    "description": "ABIDE2 casi_aspd_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_aspd_cutoff"
+  },
+  "casi_panic_attacks_cutoff": {
+    "label": "Casi Panic Attacks Cutoff",
+    "description": "ABIDE2 casi_panic_attacks_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_panic_attacks_cutoff"
+  },
+  "casi_somatization_cutoff": {
+    "label": "Casi Somatization Cutoff",
+    "description": "ABIDE2 casi_somatization_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_somatization_cutoff"
+  },
+  "casi_schizoid_personality_cutoff": {
+    "label": "Casi Schizoid Personality Cutoff",
+    "description": "ABIDE2 casi_schizoid_personality_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_schizoid_personality_cutoff"
+  },
+  "casi_manic_episode_cutoff": {
+    "label": "Casi Manic Episode Cutoff",
+    "description": "ABIDE2 casi_manic_episode_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_manic_episode_cutoff"
+  },
+  "casi_anorexia_nervosa_cutoff": {
+    "label": "Casi Anorexia Nervosa Cutoff",
+    "description": "ABIDE2 casi_anorexia_nervosa_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_anorexia_nervosa_cutoff"
+  },
+  "casi_bulimia_nervosa_cutoff": {
+    "label": "Casi Bulimia Nervosa Cutoff",
+    "description": "ABIDE2 casi_bulimia_nervosa_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_bulimia_nervosa_cutoff"
+  },
+  "casi_substance_use_cutoff": {
+    "label": "Casi Substance Use Cutoff",
+    "description": "ABIDE2 casi_substance_use_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "casi_substance_use_cutoff"
+  },
+  "csi_adhd-i_severity": {
+    "label": "Csi Adhd-I Severity",
+    "description": "ABIDE2 csi_adhd-i_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_adhd-i_severity"
+  },
+  "csi_adhd-i_cutoff": {
+    "label": "Csi Adhd-I Cutoff",
+    "description": "ABIDE2 csi_adhd-i_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_adhd-i_cutoff"
+  },
+  "csi_adhd-h_severity": {
+    "label": "Csi Adhd-H Severity",
+    "description": "ABIDE2 csi_adhd-h_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_adhd-h_severity"
+  },
+  "csi_adhd-h_cutoff": {
+    "label": "Csi Adhd-H Cutoff",
+    "description": "ABIDE2 csi_adhd-h_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_adhd-h_cutoff"
+  },
+  "csi_adhd-c_severity": {
+    "label": "Csi Adhd-C Severity",
+    "description": "ABIDE2 csi_adhd-c_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_adhd-c_severity"
+  },
+  "csi_adhd-c_cutoff": {
+    "label": "Csi Adhd-C Cutoff",
+    "description": "ABIDE2 csi_adhd-c_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_adhd-c_cutoff"
+  },
+  "csi_odd_severity": {
+    "label": "Csi Odd Severity",
+    "description": "ABIDE2 csi_odd_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_odd_severity"
+  },
+  "csi_odd_ cutoff": {
+    "label": "Csi Odd  Cutoff",
+    "description": "ABIDE2 csi_odd_ cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_odd_ cutoff"
+  },
+  "csi_cd_severity": {
+    "label": "Csi Cd Severity",
+    "description": "ABIDE2 csi_cd_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_cd_severity"
+  },
+  "csi_cd_cutoff": {
+    "label": "Csi Cd Cutoff",
+    "description": "ABIDE2 csi_cd_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_cd_cutoff"
+  },
+  "csi_gad_severity": {
+    "label": "Csi Gad Severity",
+    "description": "ABIDE2 csi_gad_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_gad_severity"
+  },
+  "csi_gad_cutoff": {
+    "label": "Csi Gad Cutoff",
+    "description": "ABIDE2 csi_gad_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_gad_cutoff"
+  },
+  "csi_specific_phobia_severity": {
+    "label": "Csi Specific Phobia Severity",
+    "description": "ABIDE2 csi_specific_phobia_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_specific_phobia_severity"
+  },
+  "csi_specific_phobia_cutoff": {
+    "label": "Csi Specific Phobia Cutoff",
+    "description": "ABIDE2 csi_specific_phobia_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_specific_phobia_cutoff"
+  },
+  "csi_obsessions_severity": {
+    "label": "Csi Obsessions Severity",
+    "description": "ABIDE2 csi_obsessions_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_obsessions_severity"
+  },
+  "csi_obsessions_cutoff": {
+    "label": "Csi Obsessions Cutoff",
+    "description": "ABIDE2 csi_obsessions_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_obsessions_cutoff"
+  },
+  "csi_compulsions_severity": {
+    "label": "Csi Compulsions Severity",
+    "description": "ABIDE2 csi_compulsions_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_compulsions_severity"
+  },
+  "csi_compulsions_cutoff": {
+    "label": "Csi Compulsions Cutoff",
+    "description": "ABIDE2 csi_compulsions_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_compulsions_cutoff"
+  },
+  "csi_disturbing_events_severity": {
+    "label": "Csi Disturbing Events Severity",
+    "description": "ABIDE2 csi_disturbing_events_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_disturbing_events_severity"
+  },
+  "csi_disturbing_events_cutoff": {
+    "label": "Csi Disturbing Events Cutoff",
+    "description": "ABIDE2 csi_disturbing_events_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_disturbing_events_cutoff"
+  },
+  "csi_motor_tics_severity": {
+    "label": "Csi Motor Tics Severity",
+    "description": "ABIDE2 csi_motor_tics_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_motor_tics_severity"
+  },
+  "csi_motor_tics_cutoff": {
+    "label": "Csi Motor Tics Cutoff",
+    "description": "ABIDE2 csi_motor_tics_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_motor_tics_cutoff"
+  },
+  "csi_vocal_tics_severity": {
+    "label": "Csi Vocal Tics Severity",
+    "description": "ABIDE2 csi_vocal_tics_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_vocal_tics_severity"
+  },
+  "csi_vocal_tics_cutoff": {
+    "label": "Csi Vocal Tics Cutoff",
+    "description": "ABIDE2 csi_vocal_tics_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_vocal_tics_cutoff"
+  },
+  "csi_schizophrenia_severity": {
+    "label": "Csi Schizophrenia Severity",
+    "description": "ABIDE2 csi_schizophrenia_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_schizophrenia_severity"
+  },
+  "csi_schizophrenia_cutoff": {
+    "label": "Csi Schizophrenia Cutoff",
+    "description": "ABIDE2 csi_schizophrenia_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_schizophrenia_cutoff"
+  },
+  "csi_mdd_severity": {
+    "label": "Csi Mdd Severity",
+    "description": "ABIDE2 csi_mdd_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_mdd_severity"
+  },
+  "csi_mdd_cutoff": {
+    "label": "Csi Mdd Cutoff",
+    "description": "ABIDE2 csi_mdd_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_mdd_cutoff"
+  },
+  "csi_dysthymic_severity": {
+    "label": "Csi Dysthymic Severity",
+    "description": "ABIDE2 csi_dysthymic_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_dysthymic_severity"
+  },
+  "csi_dysthymic_cutoff": {
+    "label": "Csi Dysthymic Cutoff",
+    "description": "ABIDE2 csi_dysthymic_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_dysthymic_cutoff"
+  },
+  "csi_autistic_severity": {
+    "label": "Csi Autistic Severity",
+    "description": "ABIDE2 csi_autistic_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_autistic_severity"
+  },
+  "csi_autistic_cutoff": {
+    "label": "Csi Autistic Cutoff",
+    "description": "ABIDE2 csi_autistic_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_autistic_cutoff"
+  },
+  "csi_asperger_severity": {
+    "label": "Csi Asperger Severity",
+    "description": "ABIDE2 csi_asperger_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_asperger_severity"
+  },
+  "csi_asperger_cutoff": {
+    "label": "Csi Asperger Cutoff",
+    "description": "ABIDE2 csi_asperger_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_asperger_cutoff"
+  },
+  "csi_social_phobia_severity": {
+    "label": "Csi Social Phobia Severity",
+    "description": "ABIDE2 csi_social_phobia_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_social_phobia_severity"
+  },
+  "csi_social_phobia_cutoff": {
+    "label": "Csi Social Phobia Cutoff",
+    "description": "ABIDE2 csi_social_phobia_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_social_phobia_cutoff"
+  },
+  "csi_separation_severity": {
+    "label": "Csi Separation Severity",
+    "description": "ABIDE2 csi_separation_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_separation_severity"
+  },
+  "csi_separation_cutoff": {
+    "label": "Csi Separation Cutoff",
+    "description": "ABIDE2 csi_separation_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_separation_cutoff"
+  },
+  "csi_enuresis_severity": {
+    "label": "Csi Enuresis Severity",
+    "description": "ABIDE2 csi_enuresis_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_enuresis_severity"
+  },
+  "csi_enuresis_cutoff": {
+    "label": "Csi Enuresis Cutoff",
+    "description": "ABIDE2 csi_enuresis_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_enuresis_cutoff"
+  },
+  "csi_encopresis_severity": {
+    "label": "Csi Encopresis Severity",
+    "description": "ABIDE2 csi_encopresis_severity variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_encopresis_severity"
+  },
+  "csi_encopresis_cutoff": {
+    "label": "Csi Encopresis Cutoff",
+    "description": "ABIDE2 csi_encopresis_cutoff variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "csi_encopresis_cutoff"
+  },
+  "adi_r_a1_direct_gaze": {
+    "label": "Adi R A1 Direct Gaze",
+    "description": "ABIDE2 adi_r_a1_direct_gaze variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a1_direct_gaze"
+  },
+  "adi_r_a1_social_smile": {
+    "label": "Adi R A1 Social Smile",
+    "description": "ABIDE2 adi_r_a1_social_smile variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a1_social_smile"
+  },
+  "adi_r_a1_facial_expressions": {
+    "label": "Adi R A1 Facial Expressions",
+    "description": "ABIDE2 adi_r_a1_facial_expressions variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a1_facial_expressions"
+  },
+  "adi_r_a1_total": {
+    "label": "Adi R A1 Total",
+    "description": "ABIDE2 adi_r_a1_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a1_total"
+  },
+  "adi_r_a2_imaginative_play": {
+    "label": "Adi R A2 Imaginative Play",
+    "description": "ABIDE2 adi_r_a2_imaginative_play variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a2_imaginative_play"
+  },
+  "adi_r_a2_interest_in_children": {
+    "label": "Adi R A2 Interest In Children",
+    "description": "ABIDE2 adi_r_a2_interest_in_children variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a2_interest_in_children"
+  },
+  "adi_r_a2_response_to_approaches": {
+    "label": "Adi R A2 Response To Approaches",
+    "description": "ABIDE2 adi_r_a2_response_to_approaches variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a2_response_to_approaches"
+  },
+  "adi_r_a2_group_play": {
+    "label": "Adi R A2 Group Play",
+    "description": "ABIDE2 adi_r_a2_group_play variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a2_group_play"
+  },
+  "adi_r_a2_higher": {
+    "label": "Adi R A2 Higher",
+    "description": "ABIDE2 adi_r_a2_higher variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a2_higher"
+  },
+  "adi_r_a2_friendships": {
+    "label": "Adi R A2 Friendships",
+    "description": "ABIDE2 adi_r_a2_friendships variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a2_friendships"
+  },
+  "adi_r_a2_total": {
+    "label": "Adi R A2 Total",
+    "description": "ABIDE2 adi_r_a2_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a2_total"
+  },
+  "adi_r_a3_showing_directing_attention": {
+    "label": "Adi R A3 Showing Directing Attention",
+    "description": "ABIDE2 adi_r_a3_showing_directing_attention variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a3_showing_directing_attention"
+  },
+  "adi_r_a3_offering_to_share": {
+    "label": "Adi R A3 Offering To Share",
+    "description": "ABIDE2 adi_r_a3_offering_to_share variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a3_offering_to_share"
+  },
+  "adi_r_a3_seeking_share_enjoyment": {
+    "label": "Adi R A3 Seeking Share Enjoyment",
+    "description": "ABIDE2 adi_r_a3_seeking_share_enjoyment variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a3_seeking_share_enjoyment"
+  },
+  "adi_r_a3_total": {
+    "label": "Adi R A3 Total",
+    "description": "ABIDE2 adi_r_a3_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a3_total"
+  },
+  "adi_r_a4_use_others_body": {
+    "label": "Adi R A4 Use Others Body",
+    "description": "ABIDE2 adi_r_a4_use_others_body variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a4_use_others_body"
+  },
+  "adi_r_a4_offering_comfort": {
+    "label": "Adi R A4 Offering Comfort",
+    "description": "ABIDE2 adi_r_a4_offering_comfort variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a4_offering_comfort"
+  },
+  "adi_r_a4_quality_social_overtures": {
+    "label": "Adi R A4 Quality Social Overtures",
+    "description": "ABIDE2 adi_r_a4_quality_social_overtures variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a4_quality_social_overtures"
+  },
+  "adi_r_a4_inappropriate_facial_expressions": {
+    "label": "Adi R A4 Inappropriate Facial Expressions",
+    "description": "ABIDE2 adi_r_a4_inappropriate_facial_expressions variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a4_inappropriate_facial_expressions"
+  },
+  "adi_r_a4_appropriate_social_responses": {
+    "label": "Adi R A4 Appropriate Social Responses",
+    "description": "ABIDE2 adi_r_a4_appropriate_social_responses variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a4_appropriate_social_responses"
+  },
+  "adi_r_a4_total": {
+    "label": "Adi R A4 Total",
+    "description": "ABIDE2 adi_r_a4_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_a4_total"
+  },
+  "adi_r_b1_pointing_express_interest": {
+    "label": "Adi R B1 Pointing Express Interest",
+    "description": "ABIDE2 adi_r_b1_pointing_express_interest variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b1_pointing_express_interest"
+  },
+  "adi_r_b1_nodding": {
+    "label": "Adi R B1 Nodding",
+    "description": "ABIDE2 adi_r_b1_nodding variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b1_nodding"
+  },
+  "adi_r_b1_head_shaking": {
+    "label": "Adi R B1 Head Shaking",
+    "description": "ABIDE2 adi_r_b1_head_shaking variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b1_head_shaking"
+  },
+  "adi_r_b1_conventional_gestures": {
+    "label": "Adi R B1 Conventional Gestures",
+    "description": "ABIDE2 adi_r_b1_conventional_gestures variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b1_conventional_gestures"
+  },
+  "adi_r_b1_total": {
+    "label": "Adi R B1 Total",
+    "description": "ABIDE2 adi_r_b1_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b1_total"
+  },
+  "adi_r_b4_spontaneous_imitation": {
+    "label": "Adi R B4 Spontaneous Imitation",
+    "description": "ABIDE2 adi_r_b4_spontaneous_imitation variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b4_spontaneous_imitation"
+  },
+  "adi_r_b4_imaginative_play": {
+    "label": "Adi R B4 Imaginative Play",
+    "description": "ABIDE2 adi_r_b4_imaginative_play variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b4_imaginative_play"
+  },
+  "adi_r_b4_imitative_social_play": {
+    "label": "Adi R B4 Imitative Social Play",
+    "description": "ABIDE2 adi_r_b4_imitative_social_play variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b4_imitative_social_play"
+  },
+  "adi_r_b4_total": {
+    "label": "Adi R B4 Total",
+    "description": "ABIDE2 adi_r_b4_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b4_total"
+  },
+  "adi_r_b2_social_verbalization": {
+    "label": "Adi R B2 Social Verbalization",
+    "description": "ABIDE2 adi_r_b2_social_verbalization variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b2_social_verbalization"
+  },
+  "adi_r_b2_reciprocal_conversation": {
+    "label": "Adi R B2 Reciprocal Conversation",
+    "description": "ABIDE2 adi_r_b2_reciprocal_conversation variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b2_reciprocal_conversation"
+  },
+  "adi_r_b2_total": {
+    "label": "Adi R B2 Total",
+    "description": "ABIDE2 adi_r_b2_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b2_total"
+  },
+  "adi_r_b3_stereotyped_utterances": {
+    "label": "Adi R B3 Stereotyped Utterances",
+    "description": "ABIDE2 adi_r_b3_stereotyped_utterances variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b3_stereotyped_utterances"
+  },
+  "adi_r_b3_inappropriate_questions": {
+    "label": "Adi R B3 Inappropriate Questions",
+    "description": "ABIDE2 adi_r_b3_inappropriate_questions variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b3_inappropriate_questions"
+  },
+  "adi_r_b3_pronominal_reversal": {
+    "label": "Adi R B3 Pronominal Reversal",
+    "description": "ABIDE2 adi_r_b3_pronominal_reversal variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b3_pronominal_reversal"
+  },
+  "adi_r_b3_neologisms": {
+    "label": "Adi R B3 Neologisms",
+    "description": "ABIDE2 adi_r_b3_neologisms variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b3_neologisms"
+  },
+  "adi_r_b3_total": {
+    "label": "Adi R B3 Total",
+    "description": "ABIDE2 adi_r_b3_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_b3_total"
+  },
+  "adi_r_c1_unusual_preoccupations": {
+    "label": "Adi R C1 Unusual Preoccupations",
+    "description": "ABIDE2 adi_r_c1_unusual_preoccupations variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c1_unusual_preoccupations"
+  },
+  "adi_r_c1_circumscribed_interests": {
+    "label": "Adi R C1 Circumscribed Interests",
+    "description": "ABIDE2 adi_r_c1_circumscribed_interests variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c1_circumscribed_interests"
+  },
+  "adi_r_c1_total": {
+    "label": "Adi R C1 Total",
+    "description": "ABIDE2 adi_r_c1_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c1_total"
+  },
+  "adi_r_c2_verbal_rituals": {
+    "label": "Adi R C2 Verbal Rituals",
+    "description": "ABIDE2 adi_r_c2_verbal_rituals variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c2_verbal_rituals"
+  },
+  "adi_r_c2_compulsions": {
+    "label": "Adi R C2 Compulsions",
+    "description": "ABIDE2 adi_r_c2_compulsions variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c2_compulsions"
+  },
+  "adi_r_c2_total": {
+    "label": "Adi R C2 Total",
+    "description": "ABIDE2 adi_r_c2_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c2_total"
+  },
+  "adi_r_c3_hand_finger_mannerisms": {
+    "label": "Adi R C3 Hand Finger Mannerisms",
+    "description": "ABIDE2 adi_r_c3_hand_finger_mannerisms variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c3_hand_finger_mannerisms"
+  },
+  "adi_r_c3_higher": {
+    "label": "Adi R C3 Higher",
+    "description": "ABIDE2 adi_r_c3_higher variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c3_higher"
+  },
+  "adi_r_c3_other_complex_mannerisms": {
+    "label": "Adi R C3 Other Complex Mannerisms",
+    "description": "ABIDE2 adi_r_c3_other_complex_mannerisms variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c3_other_complex_mannerisms"
+  },
+  "adi_r_c3_total": {
+    "label": "Adi R C3 Total",
+    "description": "ABIDE2 adi_r_c3_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c3_total"
+  },
+  "adi_r_c4_repetitive_use_objects": {
+    "label": "Adi R C4 Repetitive Use Objects",
+    "description": "ABIDE2 adi_r_c4_repetitive_use_objects variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c4_repetitive_use_objects"
+  },
+  "adi_r_c4_higher": {
+    "label": "Adi R C4 Higher",
+    "description": "ABIDE2 adi_r_c4_higher variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c4_higher"
+  },
+  "adi_r_c4_unusual_sensory_interests": {
+    "label": "Adi R C4 Unusual Sensory Interests",
+    "description": "ABIDE2 adi_r_c4_unusual_sensory_interests variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c4_unusual_sensory_interests"
+  },
+  "adi_r_c4_total": {
+    "label": "Adi R C4 Total",
+    "description": "ABIDE2 adi_r_c4_total variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_c4_total"
+  },
+  "adi_r_d_age_parent_noticed": {
+    "label": "Adi R D Age Parent Noticed",
+    "description": "ABIDE2 adi_r_d_age_parent_noticed variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_d_age_parent_noticed"
+  },
+  "adi_r_d_age_first_single_words": {
+    "label": "Adi R D Age First Single Words",
+    "description": "ABIDE2 adi_r_d_age_first_single_words variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_d_age_first_single_words"
+  },
+  "adi_r_d_age_first_phrases": {
+    "label": "Adi R D Age First Phrases",
+    "description": "ABIDE2 adi_r_d_age_first_phrases variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_d_age_first_phrases"
+  },
+  "adi_r_d_age_when_abnormality": {
+    "label": "Adi R D Age When Abnormality",
+    "description": "ABIDE2 adi_r_d_age_when_abnormality variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_d_age_when_abnormality"
+  },
+  "adi_r_d_interviewer_judgment": {
+    "label": "Adi R D Interviewer Judgment",
+    "description": "ABIDE2 adi_r_d_interviewer_judgment variable",
+    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "adi_r_d_interviewer_judgment"
+  },
+  "age_at_scan": {
+    "label": "Age at Scan",
+    "description": "Age of participant at time of scan",
+    "valueType": "http://www.w3.org/2001/XMLSchema#float",
+    "associatedWith": "NIDM",
+    "hasUnit": "",
+    "minValue": "",
+    "maxValue": "",
+    "source_variable": "age_at_scan"
+  }
+}

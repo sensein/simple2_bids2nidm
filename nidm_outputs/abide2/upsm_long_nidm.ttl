@@ -1,0 +1,2371 @@
+@prefix bids: <http://bids.neuroimaging.io/> .
+@prefix crypto: <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dicom: <http://neurolex.org/wiki/Category/DICOM_term/> .
+@prefix ndar: <https://ndar.nih.gov/api/datadictionary/v2/dataelement/> .
+@prefix nfo: <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix nidm: <http://purl.org/nidash/nidm#> .
+@prefix niiri: <http://iri.nidash.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sio: <http://semanticscience.org/ontology/sio.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+niiri:a1db3cd4-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a45a4aea-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a4f88084-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ab961aa6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:af2dcd44-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:afd357d2-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b8e9e35a-7a1c-11f0-9ae2-6c92cf1f4c20 a bids:Dataset,
+        prov:Collection,
+        prov:Entity ;
+    bids:BIDSVersion "1.4.2"^^xsd:string ;
+    dct:license "Creative Commons, Attribution-NonCommercial-Share Alike License"^^xsd:string ;
+    dcat:creator "http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html"^^xsd:string ;
+    prov:hadMember niiri:a107e834-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:a2b3cb44-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:a348dab8-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:a370ef1c-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:ace31666-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:aff9feb4-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b0521950-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b0744f20-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b1bb4032-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b1dd4fba-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b30ba8c8-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b3909100-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b4154800-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b55150d8-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:b59ed830-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:baff7380-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:bc36a75a-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:bf4b4d1a-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c0aa6ff6-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c1539298-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c19c4132-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c2818846-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c2ebc65c-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c45c4b6a-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c4b9f1e8-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:c4d340bc-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:cbb4eae4-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:cbe55f76-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:cd2a440a-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:cd986944-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:ce1cffb0-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:ceab5616-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:cf300780-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:cf7e77bc-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:d256d83a-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:d3fad5b0-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:d4fa83f2-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:db790998-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:dc007112-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:dd400f06-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:dde2ce12-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:de0993b2-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:de625a92-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:dfd5b946-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:e0c1d628-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:e12b2c5e-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:e1f8bbd8-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:e2c52902-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:e481013a-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:e517fae0-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:eb1a282e-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:eb9844fc-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:ec5881b8-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:ed034076-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:ee48db08-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:eed76274-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:eef1cdda-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:efa4d4ca-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:f16d1de4-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:f32f41fc-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:f3b364aa-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:f3d1146e-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:fb54b7e6-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:fc9fe79c-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:fcb83f68-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:fd835f40-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:fdc4dee8-7a1c-11f0-9ae2-6c92cf1f4c20,
+        niiri:fe8d678c-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:bd8123ec-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c32d0c52-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c5d9226a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:d1516540-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:dc2f7638-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:dce1098e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:de075f52-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e3b11650-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ee8b2ea4-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f0a8663e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f2b15be8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a107e834-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "9ccbe788c481642699a2d246c0e7f627487de436b43558d0095e6a9f63331adf9d84cb45dae338454bf35fc49c8dc18811b0aa18f9cd5c15a54fa48861643c5d"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50031/ses-2/anat/sub-50031_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50031/ses-2/anat/sub-50031_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e107e42e-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a2b3cb44-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "be2f3493463c802f89512fa1771a2dc154a70678dbcba02064110406b420e73e18e45262ee03a0bba48f522144b327a26eab710bc68510c309c1606588934e70"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50047/ses-1/anat/sub-50047_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50047/ses-1/anat/sub-50047_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c2b3b3de-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a2ebaf28-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d2eb3b88-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b2b3b5fa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a348d5f4-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d32ecbdc-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b32f3f5e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:a348dab8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "5690b1b7f3ce1e8db489fe6bf742a2ac2c50cd34fd0eb1699149e0fc2055bebea3ff9dcd3f5574dc3716ce40b5fcb96987133ce64437ad706248496973ee42b1"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50048/ses-1/func/sub-50048_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50048/ses-1/func/sub-50048_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a348d5f4-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a370ef1c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "742bd6ba3ceb71c0a74fd0a8b9a8cdeeba1785443f84b955ee4587ee75ed9e8fa25f8dcea22c22e9de53b8ecf382ceb0e2b2097ed3d267c6134e4bdcf02113f1"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50048/ses-2/anat/sub-50048_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50048/ses-2/anat/sub-50048_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c370eb3e-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a5513a12-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d5509fc6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e4fa8154-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:aaff6dfe-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:aafed97a-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:aaff7042-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ab54b3fe-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:eb543faa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:aaff7042-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ac9fe3dc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ec9f71ae-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fc36a4d0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ace3118e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bce2a0e6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cce31378-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ace31666-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "8e2714796944f6277f7ba24ac434e5d9115418184227a179629b2e0023f68a519de0789596ba780cfe997149015080ed844e8411fe6bc9f266f5922b457c2497"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50007/ses-1/anat/sub-50007_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50007/ses-1/anat/sub-50007_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ace3118e-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ad2a2c2c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fd298c0e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cce31378-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ad835a54-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bd82e0ce-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ed835c48-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ae1cfa42-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:be091176-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ee0990f6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ae623d82-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fe4844d6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ee0990f6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:aef1c934-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:eed6e358-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fe8d64f8-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:af3002bc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bf2f8f08-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cf3004a6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:aff9feb4-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "a5314435d9225e63e46056e74b301c69ba0451b7e21785b21d61698768510e6b346f6ce50ca15eda4c34f2cbef7271470df6ab7d7a8c15c2e742ed14696a55d6"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50029/ses-1/func/sub-50029_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50029/ses-1/func/sub-50029_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:dff9f9f0-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b0521950-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "9110ac4d1c27dea66adef92c58d2df4481fdd678d49143dddf1550016c640f6a6c389566418bb733006449c476cb5b88d1272acac1ea99c43627e6ca31ab5465"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50029/ses-2/anat/sub-50029_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50029/ses-2/anat/sub-50029_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e05214a0-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b0744f20-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "a4ff40428fd2815fc7abad873258170400afd426263637c7d6b02299ab4a5ab208ce068d58dedeaf7bbc9eead09bf4fbbde2d675ed288803cbf01a4b0de82a93"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50029/ses-2/func/sub-50029_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50029/ses-2/func/sub-50029_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c0744a66-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b16d1920-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a15311ba-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a1538fe6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b1bb4032-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "3bcd7f12d03c065c3f7c95a485f4483b04838a9407d88b2248b22d39226878cbd46f0059ab55bb7e5170e4376e956619d5647550e8b12ee5491e4389c848a629"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50035/ses-2/func/sub-50035_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50035/ses-2/func/sub-50035_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f1bb25c0-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b1dd4fba-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "6ededdd76d9779fbcca9b9f60e473a20eb8a038bdeb5a417a067ac69fb6c8cc6615ca707c4bfce32b555a5fe421c047ca86abba48409131e6bdc45ec81b2c19c"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50038/ses-1/anat/sub-50038_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50038/ses-1/anat/sub-50038_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d1dd4b0a-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b2816dac-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a256507c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e1dd4cfe-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b30ba8c8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "13ea76569fc4a76917c564aa2b10cf0e6b6b12eae0a9e7f9fa61da5c2a2bcf341a83f43f2f36a08373fca1038c7ca2aaff0037048102322956e8d52d1700e297"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50047/ses-2/func/sub-50047_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50047/ses-2/func/sub-50047_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f30b8dac-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b3909100-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "ad6e3ad680c34b3a85b6e9ee060d66a9336e1c5bdf17afe457d5a457c84b0d52624cf53895a46366d57853a77d6aa8da851e1b1e81f24e38b6d443286c984cce"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50048/ses-2/func/sub-50048_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50048/ses-2/func/sub-50048_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c3908bce-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b4154800-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "9b35701c515bcb2f485572997826f3d919f91e169801dd8b88afd6e6d379d071a6286fcad42f8326d5e1d123e7ee5fc1e9fd4f1f0100d8813c99a861e946c1e6"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50049/ses-2/func/sub-50049_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50049/ses-2/func/sub-50049_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d4154300-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b4b9ee1e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c4b976c8-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f45c48e0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:b55150d8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "df8b60d90c609434c11e754f54ba5e8b8986ef407fe3516f916578e46c7ddd14c731add451692a1377a603b46a93666c192756836509eb8e18cee4d82fea8408"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50051/ses-2/anat/sub-50051_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50051/ses-2/anat/sub-50051_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a5513a12-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b59ed830-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "7f17c9dc94e81a3d97c7068d92cb191b553ab3b9cc103d8db2524abe9ba95e90e70c6175ffbc5650ad7bf2cdedd044159f75bb29bd435d02dc892df3b7dd3180"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50051/ses-2/func/sub-50051_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50051/ses-2/func/sub-50051_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c59ebd6e-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:baff7380-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "1b9cbd18f9f0f911cfee42be222f29b2d7f32d22a39defa224ac4746be787022c03303452652880184f870caeb0d8d2c1495c40fb84489d176a8752e3ada6122"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50002/ses-1/anat/sub-50002_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50002/ses-1/anat/sub-50002_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:aaff6dfe-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:bb7904e8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:eb543faa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:aaff7042-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bc006c6c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ebe4e60e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:eb98425e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bc36a75a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "715b8cc68f7ec2fffa8c364c70583ec0a17ed45059f9e5ae935949697db7890ac53aa6c0a2257e2817dcd9f5d62d6a2993f2da66ac871fbbd69827b5ffdbbefa"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50006/ses-1/anat/sub-50006_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50006/ses-1/anat/sub-50006_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:dc36a2e6-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:bd033bc6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bce2a0e6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cce31378-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bed75ec8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:eed6e358-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fe8d64f8-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:bf4b4d1a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "df8637d175982815190e84de2b6cc606f68b2556033cadc02b15386684b7791af8b11c6868ffeb763fdfa7304f3a61faa046e4d6cdff4385f7d3309454dd7bbc"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50028/ses-1/func/sub-50028_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50028/ses-1/func/sub-50028_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ef4b4824-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c0744a66-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c0519e8a-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:dfd5b64e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c0aa6ff6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "d7d91fcf05b0c3370f8cefbbc47943eebd5211014700eab6a234307fbaf75572b62b53f08ee8efedcc5eca8713e1dbbf861f19db1160e2e099a5d3138e93bedd"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50031/ses-1/anat/sub-50031_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50031/ses-1/anat/sub-50031_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:d0aa6b64-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c0c1d150-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b0a9f5da-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e0aa6d58-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c1539298-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "4474a234f62719aa181943fb025452b1098df494ebc6330c8eeb9b9927e90790206fdc2ef6bcbad1400d208d2e199ca1f0f61fbc5d5ebcc27b921d3e4ba2ba36"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50035/ses-1/anat/sub-50035_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50035/ses-1/anat/sub-50035_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f1538d7a-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c19c4132-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "0e1eec69807eb41852373927d7609a3d0e88e40eab10b230e5c8f251c796c5fc1793b6484734559f0e1072bd4d26a96cd38fbca679ab0ae09738b7959522530f"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50035/ses-2/anat/sub-50035_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50035/ses-2/anat/sub-50035_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:e19c2a94-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c2818846-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "8bfc2e313e4f973e299eee7a73419f82d1b0362a4ffce0b47cb538bb9c4fbb9a06514debfbc91316ca0ec59acba8e7951290c6297517d84171317d00ab3d3a1e"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50038/ses-2/func/sub-50038_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50038/ses-2/func/sub-50038_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b2816dac-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c2b3b3de-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c2b31532-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b2b3b5fa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c2c50d82-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c2b31532-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b2b3b5fa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c2ebc65c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "3e399b612ececa19ebceb48eb5ad4a092c4462641f9faa66e57d661b4256a6b4d55422e039bcec5ad8a7cef27b7f9bc5791092ef99051fb91edf82ce8dbe9b8d"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50047/ses-2/anat/sub-50047_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50047/ses-2/anat/sub-50047_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:a2ebaf28-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c370eb3e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d3706f9c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b32f3f5e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c3908bce-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d3706f9c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b32f3f5e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c45c4b6a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "4ffb3cc7a67177233678b182708aaa310ef9fb867e5399f604eca97ca6d9f21fc7ac5289fe564eb6922bdcc9cefebf254da5adf496a1f73ed473f83af07a2096"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50050/ses-1/anat/sub-50050_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50050/ses-1/anat/sub-50050_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f45c46ec-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c4b9f1e8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "aaabf86f241d72b6726696b30e10b5e0ba8ef196ba1d38131c48a237f1a2b3f7dd5c582c5456944b00805901f40a8545c7a3c208d50f72f374f22903f12ce784"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50050/ses-2/anat/sub-50050_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50050/ses-2/anat/sub-50050_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b4b9ee1e-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c4d33bee-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c4b976c8-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f45c48e0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c4d340bc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "8f50d9e5c7f9d2c4c49fd3cfa2a83d7a521ba6b0923d646eb4bfb668b67329c3845f5bb294229cf8eeaa5d2be8a19e3441444bfd4af1f2e5a79b7cc3a9d81b8b"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50050/ses-2/func/sub-50050_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50050/ses-2/func/sub-50050_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c4d33bee-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c4fa7f6a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c4fa0dd2-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e4fa8154-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:c59ebd6e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d5509fc6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e4fa8154-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:cb984038-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fb97c4aa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:eb98425e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:cbb4e648-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fb97c4aa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:eb98425e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:cbb4eae4-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "f326dd14305d707e4fecab950ef048f5d3e0799b2cfdcc2b531a1661a1d21d29a8ff7f4dcc2ba7a40dd9c93f56614f3ba16a92d605b1750f6519846e9d26ce31"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50005/ses-1/func/sub-50005_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50005/ses-1/func/sub-50005_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:cbb4e648-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:cbe55f76-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "dd96fa7679b47c1e7f7c0ad6c53890e1e07d379a2c020e73cbea8d580a2c350f60f331f9d2c937eb1f82db01b8ed134edfeda2e98d0bf8a1244407d64d97507d"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50005/ses-2/anat/sub-50005_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50005/ses-2/anat/sub-50005_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ebe55bac-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:cc587d30-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bc362a3c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fc36a4d0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ccb83a86-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ec9f71ae-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fc36a4d0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:cd2a440a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "111ef43b19e769d4892c64771e1b0e52daeed8c8b152df8d371a7806542d516e5f51a786e43c219e3dce4907c2af8d0b629513e1821a7610a26b1b3079034849"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50007/ses-2/anat/sub-50007_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50007/ses-2/anat/sub-50007_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ad2a2c2c-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:cd3ff4da-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fd298c0e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cce31378-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:cd986944-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "cb30be1403c3dfd749ae32dbc692778eb8fdf41e75b0eabbb4dc5ddfad132d58cd35eb2d9cc917e8e027b31d474959b1e4bd1ce01b59c0534a21d759f61db963"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50013/ses-1/func/sub-50013_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50013/ses-1/func/sub-50013_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fd98644e-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ce1cffb0-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "173baa2999e37c7631646e215123995306f4a8bee89ab6a621a1c1cb00eb45db5e75804b3e649c5b4d610c36d62acd345c2224ba9ca8034727cf79a29946a679"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50026/ses-1/func/sub-50026_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50026/ses-1/func/sub-50026_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ae1cfa42-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ce48c064-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fe4844d6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ee0990f6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ceab5616-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "4c10312b4a039758846af528b0e57062c89066b0531e9e8f3e31361c6b28ae935f37c68d4e036b8566561241e849cda390d6b3efcf1c52817675d60777b7e2db"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50027/ses-1/func/sub-50027_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50027/ses-1/func/sub-50027_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:eeab5152-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:cf300780-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "2b783474c76e72663499719c2669741ccf917180dcff82c729dc311658f35479ea22bf2a639488e449091b65535aff71a934b38efdad37771f306c5a312b2341"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50028/ses-1/anat/sub-50028_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50028/ses-1/anat/sub-50028_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:af3002bc-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:cf7e77bc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "de94370e0009758b067d578411984f24aab7057db587be50226876b70374f11297fd862302b3c6b8031166f9c665c5f89e35bc6ba8da0bcf216699c3a4c11567"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50028/ses-2/anat/sub-50028_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50028/ses-2/anat/sub-50028_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:df7e7406-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:cfa4d010-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:df7e0188-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cf3004a6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d0aa6b64-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b0a9f5da-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e0aa6d58-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d1dd4b0a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c1dcd8b4-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e1dd4cfe-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d256d83a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "2a5bdfa747bc9506e328dac79859afa5e4e13224d6558daa4e0841b4526c23c68f0c7ecfde6b26a00aca7bdb9d1ae34c2575bc75b6e6390aa21ca38d60419776"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50038/ses-2/anat/sub-50038_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50038/ses-2/anat/sub-50038_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f256c16a-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:d3fad5b0-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "f733982356a2f4159a2bac128c04d92a319915ac9bc08dfe465c0765bad823b37af86ee9c3ccfa0fb02927e5e55d3629991db6a7c15ea41ba710ca709cfe9c2c"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50049/ses-2/anat/sub-50049_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50049/ses-2/anat/sub-50049_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f3fad1f0-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:d4154300-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b3fa575c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a3b3620c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:d4fa83f2-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "a62dc037278fd1153f5d4afa98213b8e2153391586e1094c5064cb476ba9b30c6cef7c52114185e93b63664c4a236b90709b0e2b63a71fa59661667b2f5a0c03"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50051/ses-1/anat/sub-50051_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50051/ses-1/anat/sub-50051_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c4fa7f6a-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:db1a22b6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:aafed97a-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:aaff7042-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:db790998-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "4a864ffb06a1a3d45cf0883aeb11669ccd66526c4cf3858c2771b91436ff0e507ad0a24398b558e1e870c7f07458d0306bf7f483baba31c4913230305999a700"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50002/ses-2/func/sub-50002_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50002/ses-2/func/sub-50002_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:bb7904e8-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:dc007112-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "6858961b87e3aceb6b0e58174cb033eba4fade27e32a5f2c861890fc63de01b5b286d58433149f2c15cea87e9705671f898d18778f0f29014ef2c1001c2aa49a"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50005/ses-2/func/sub-50005_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50005/ses-2/func/sub-50005_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:bc006c6c-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:dc36a2e6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bc362a3c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fc36a4d0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:dd400f06-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "5d3f832595d87fc828f69d5826d01d71762a7c161d81142522e557ca11205d56f4859a789a23841dce5aa6edfe3b38b4ffbf99ccca445ad6390f280233fb299f"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50007/ses-2/func/sub-50007_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50007/ses-2/func/sub-50007_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:cd3ff4da-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:dde2ce12-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "39ae81dba2095b2f6a61e2bb04ced27a4e4f0e9f0363b123767264476aa7a3c7dcc486f6b88ed8f919a07e18c0cf84ce12378e3b3c0998181a30ffde7775e3db"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50013/ses-2/func/sub-50013_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50013/ses-2/func/sub-50013_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fde2b18e-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:de0993b2-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "a3af09f1def9bbec9c55b8f1e4a5764a13a382625e04de8a681212c269f99a05f96964db7058b7904fe5293efeb8e8ea6b76d768eecd15968c0320e4889fcf84"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50026/ses-1/anat/sub-50026_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50026/ses-1/anat/sub-50026_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fe098eda-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:de625a92-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "112e50911ad1a0d4156def09c3050110cbead23cca205e24e9954745733697f1e1fd1e4f236cbcb3f3548679ef14b6cb57efb1305befb1dddf6ebe97f12b1c9c"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50026/ses-2/func/sub-50026_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50026/ses-2/func/sub-50026_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ae623d82-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:df7e7406-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:df7e0188-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cf3004a6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:dfd5b3f6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:afd538cc-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:dfd5b64e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:dfd5b946-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "2e62adabda1ca5d964d0a04c148c2cc71f3c6e587f196f5b75b9d996f639c52170fcc4424f45452b48e5f7bec0bb5e780beb9e1d44697f8aff6f89f1b3f9735a"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50029/ses-1/anat/sub-50029_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50029/ses-1/anat/sub-50029_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:dfd5b3f6-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:dff9f9f0-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:afd538cc-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:dfd5b64e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e05214a0-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c0519e8a-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:dfd5b64e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e0c1d628-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "546b5380858958d3e046867c0b25ffb5a27eeab46e393b70e183fc8815bfc6d44c45ee9b5eed2eecd0256faf2dd0da048edeecc1275df31862697a97d6e8f385"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50031/ses-1/func/sub-50031_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50031/ses-1/func/sub-50031_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c0c1d150-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e107e42e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e1076922-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e0aa6d58-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e12b2c5e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "17b15f49a90a7dbd459fb042effe1232a4cae9163fe89e05a7e3bbbe6d8ed6e60d5625ec739c198086153b06423395623ded313babd0c4bebe82730f1b600bb8"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50031/ses-2/func/sub-50031_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50031/ses-2/func/sub-50031_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f12b2786-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e19c2a94-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e19bb974-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a1538fe6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:e1f8bbd8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "aa5a716b310226a2e63a8064adf19eb958cfc87f611e89225e5d07ccb4ba8e4d41139160cb62cfe779e2d0717a0bcb17a7377037081e822d4f03c75d03d8c91f"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50038/ses-1/func/sub-50038_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50038/ses-1/func/sub-50038_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f1f8b728-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e2c52902-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "c0da644657c9d1650f20dc0a41c41b22902418d2be98819e9c8b6875b7e656a87f78b43027e809e8e0a526b602f75368b2ae402b736c8a57743c9a3226695418"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50047/ses-1/func/sub-50047_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50047/ses-1/func/sub-50047_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:c2c50d82-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e481013a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "7707d3601fc664b96b05d3440c2e95d1335afe7c72b71cc0b68c6ee7e154ece2ca45b74e0eeee5741e3a2226cbbb77ca6eb3c221af21c8f58daede81493859e6"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50050/ses-1/func/sub-50050_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50050/ses-1/func/sub-50050_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f480fc3a-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e517fae0-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "fbb069b8b195f199592ff0f5f4bb43be202f98d1152318a655098ac43bc8453a32b225219ebf71c0d09cf5aa2815f164ad4a4dc44fa4bbaca3d48f448743afff"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50051/ses-1/func/sub-50051_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50051/ses-1/func/sub-50051_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f517f630-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:eb1a282e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "cad968dfc1bb48d1cc14dc553104dbc18ed9108e3899196faa94a5b05c9bb450c369dfc940c236f2bee806605c1167589da82e8c924bd347ffac92acd983c723"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50002/ses-1/func/sub-50002_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50002/ses-1/func/sub-50002_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:db1a22b6-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:eb9844fc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "3cb02b548012af19afaabae30e3886d60253836cbc30327e554e78881954a4c11d2b012c437bf5db6637b1bf8f4a162538c70ae36e647598196f786c3ce0b3fd"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50005/ses-1/anat/sub-50005_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50005/ses-1/anat/sub-50005_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:cb984038-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ebe55bac-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ebe4e60e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:eb98425e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ec5881b8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "a2898392bd5573ea866502239d9852f0927d61ecbbe3d9754729b9f083b87927043d2e8ee14ce8d1d68ff46d6b32c01d5b833e3997767206e68aaa7cdb8c587b"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50006/ses-1/func/sub-50006_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50006/ses-1/func/sub-50006_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:cc587d30-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ed034076-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "f1e0ac37baae025b4c8413cf4eb01c55af4966e0ec2b4fdd0642c472934eeefe980d2c8bbd401ac359275a16896760decb4c53ecb7433967ff7542519add6c53"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50007/ses-1/func/sub-50007_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50007/ses-1/func/sub-50007_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:bd033bc6-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:edc4c7c8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fdc44ee2-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ed835c48-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:ee48db08-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "b4ced23613bdad6b625c4160a296081ff0aa8ed22eed7b723359938d2d12f73f59092e9f2627d8c45b1d27f3b81502604f304946e296fadeb5ae4bd8212014f5"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50026/ses-2/anat/sub-50026_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50026/ses-2/anat/sub-50026_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ce48c064-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:eeab5152-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ce8cf126-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fe8d64f8-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:eed76274-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "007a6e5c777b04dd0680433aaa07e34c2eb72f4b94a0cfffc1bf9fe09cd567b8b179d02bb90a43506a7b2e6e2729bf7e2bd7517446fff859159fad729521e778"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50027/ses-2/anat/sub-50027_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50027/ses-2/anat/sub-50027_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:bed75ec8-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:eef1cdda-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "c12ee535761233aca33f77301d877c78c99708016d639a5e0c6bc27786511bd52c70e0aaff1bc2965650fcaf603ae09c95a6202ac1fbb5f41634e9fc3075d839"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50027/ses-2/func/sub-50027_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50027/ses-2/func/sub-50027_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:aef1c934-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ef4b4824-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bf2f8f08-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:cf3004a6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:efa4d4ca-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "a437b5892ceac00734e7781933814805cec974da4004bb11f17e36d747df8ddc71ca6ce62ecda92a79ee88beacbbe1e3d7ba945ef5949f04bcc29a58a73e9a93"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50028/ses-2/func/sub-50028_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50028/ses-2/func/sub-50028_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:cfa4d010-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f12b2786-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e1076922-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e0aa6d58-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f1538d7a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a15311ba-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a1538fe6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f16d1de4-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "bb3d83f93d8726c9a7895bc63a086093c1b9b6ca92686139890fe3f4a7660572f62b192c34dd31661238054a563b5a13968e2d28a8dd66fd0e7426ba6cbb0c50"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50035/ses-1/func/sub-50035_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50035/ses-1/func/sub-50035_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:b16d1920-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f1bb25c0-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e19bb974-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a1538fe6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f1f8b728-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c1dcd8b4-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e1dd4cfe-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f256c16a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:a256507c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e1dd4cfe-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f30b8dac-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d2eb3b88-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b2b3b5fa-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f32f3d74-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:d32ecbdc-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:b32f3f5e-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f32f41fc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "c049e6be5594ae2a8a69a015a0a5216192e03c78051cb50cce09765a0ac2771f55fc27940438a83b9dedd4864cb0ec9ae245d62c0d89f826b86ef10d230bebe7"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50048/ses-1/anat/sub-50048_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50048/ses-1/anat/sub-50048_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f32f3d74-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f3b35ffa-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f3b2e93a-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a3b3620c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f3b364aa-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "8ce37d506950db9f65294a360c121f83010c598c535f1a6675eb56c9fb97d6570ca82f88d43ecfb73567d77595a9fac7d08ede1efdd9d9e72a990e261d7f0d7e"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50049/ses-1/anat/sub-50049_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50049/ses-1/anat/sub-50049_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f3b35ffa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f3d10eba-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:f3b2e93a-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a3b3620c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f3d1146e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "d0680e28f5307c17894bac8a23cbd7e801bc3ff9f60b76e1dfab63f17d0295531d8b8bad27b498d32ac6c4d1bc8f3390fd31c999f97a10361b37e0674f07dcfe"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50049/ses-1/func/sub-50049_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50049/ses-1/func/sub-50049_ses-1_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:f3d10eba-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f3fad1f0-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:b3fa575c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:a3b3620c-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f45c46ec-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e45bd612-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f45c48e0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f480fc3a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:e45bd612-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:f45c48e0-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:f517f630-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:c4fa0dd2-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:e4fa8154-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fb54b7e6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "3e9f3ed7241b1f1900069d16ce7e0e3b0e7446a61f68aab47068d89363e0c15a6b1db35a4c7d0ac1fbb8c395964c17eee9fa1e2eac6f6882df522ffd3b02158c"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50002/ses-2/anat/sub-50002_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50002/ses-2/anat/sub-50002_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ab54b3fe-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fc9fe79c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "b2feda6216c8efa92d1ad854605ee6bf8f1a39d1d0c57c62c40b4acd2dec94c86dd0404f8f613d5dabf95625ea72a226f72b2506d00b6a0405ca0190621009a3"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50006/ses-2/anat/sub-50006_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50006/ses-2/anat/sub-50006_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ac9fe3dc-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fcb83f68-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime 2.5e-02 ;
+    bids:FlipAngle "70"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    bids:SliceTiming "0.0,0.77586,0.05172,0.82759,0.10345,0.8793099999999999,0.15516999999999997,0.93103,0.2069,0.98276,0.25862,1.03448,0.31033999999999995,1.0862100000000001,0.36207,1.13793,0.41379000000000005,1.1896600000000002,0.46552,1.2413800000000001,0.51724,1.2931,0.56897,1.34483,0.6206900000000001,1.39655,0.67241,1.44828,0.72414"^^xsd:string ;
+    crypto:sha512 "0519e467d855e0adbca0f5b425ce12970defeb6792405469849debbb524f0204d031eb30e681c0c9a3c762b7d2799552b8a9f61dc8ea1a8cef38b673420a0548"^^xsd:string ;
+    dicom:AcquisitionMatrix "64x64"^^xsd:string ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth "3126"^^xsd:string ;
+    dicom:PulseSequenceName "EPI"^^xsd:string ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime 1.5e+00 ;
+    dicom:ScanOptions "FS"^^xsd:string ;
+    nidm:AcquisitionObject 1 ;
+    nidm:Task "rest"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:FlowWeighted ;
+    nidm:hadImageUsageType nidm:Functional ;
+    nfo:filename "/sub-50006/ses-2/func/sub-50006_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50006/ses-2/func/sub-50006_ses-2_task-rest_run-1_bold.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ccb83a86-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fd835f40-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "e43dfba8266c1255beb57fa601dd6500235a57405c02c86b076da0d7a996ec78c407b5761a136ce66686547ea0970d353920d37495688e957785ab779bb7ecae"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50013/ses-1/anat/sub-50013_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50013/ses-1/anat/sub-50013_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:ad835a54-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fd98644e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:bd82e0ce-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ed835c48-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fdc4dee8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "e8753d392c3b0bef9937c6611b9165462d8e0e418ba6e2330cf6bd72b0b08b8a6ed5c50bead745f26fde26d5b6835656c9316de1fd9f4835462759b26ad7b0ae"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50013/ses-2/anat/sub-50013_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50013/ses-2/anat/sub-50013_ses-2_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:edc4c7c8-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fde2b18e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:fdc44ee2-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ed835c48-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fe098eda-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:be091176-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:ee0990f6-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fe8d6318-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Acquisition,
+        prov:Activity ;
+    dct:isPartOf niiri:ce8cf126-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+    prov:qualifiedAssociation [ a prov:Association ;
+            prov:agent niiri:fe8d64f8-7a1c-11f0-9ae2-6c92cf1f4c20 ;
+            prov:hadRole sio:Subject ] .
+
+niiri:fe8d678c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:AcquisitionObject,
+        prov:Entity ;
+    bids:EchoTime "0.00393"^^xsd:string ;
+    bids:FlipAngle "7"^^xsd:int ;
+    bids:PhaseEncodingDirection "j-"^^xsd:string ;
+    crypto:sha512 "d07fee847dbb9aab8ea4f18a9c116c5eeed60d0ae77ba578dd6131e3f5fd3a0a4785c575e7d255f7f9ca697ad56d91f6ff78caab91a16b71ac00a36e20cdee38"^^xsd:string ;
+    dicom:AcquisitionMatrix "256x256"^^xsd:string ;
+    dicom:InversionTime 1e+00 ;
+    dicom:MagneticFieldStrength 3e+00 ;
+    dicom:Manufacturer "Siemens"^^xsd:string ;
+    dicom:PixelBandwidth 1.3e+02 ;
+    dicom:ReceiveCoilName "8 Chan"^^xsd:string ;
+    dicom:RepetitionTime "2.1"^^xsd:string ;
+    dicom:ScanningSequence "MPRAGE"^^xsd:string ;
+    nidm:hadAcquisitionModality nidm:MagneticResonanceImaging ;
+    nidm:hadImageContrastType nidm:T1Weighted ;
+    nidm:hadImageUsageType nidm:Anatomical ;
+    nfo:filename "/sub-50027/ses-1/anat/sub-50027_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:Location "file://orcd/data/satra/002/datasets/simple2_datalad/abide2/ABIDEII-UPSM_Long/sub-50027/ses-1/anat/sub-50027_ses-1_run-1_T1w.nii.gz"^^xsd:string ;
+    prov:wasGeneratedBy niiri:fe8d6318-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a15311ba-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a256507c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:aafed97a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:afd538cc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b0a9f5da-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:b3fa575c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:bc362a3c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:bce2a0e6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:bd82e0ce-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:be091176-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:bf2f8f08-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c0519e8a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c1dcd8b4-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c2b31532-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c4b976c8-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:c4fa0dd2-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ce8cf126-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:d2eb3b88-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:d32ecbdc-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:d3706f9c-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:d5509fc6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:df7e0188-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e1076922-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e19bb974-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:e45bd612-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:eb543faa-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ebe4e60e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:ec9f71ae-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:eed6e358-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:f3b2e93a-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fb97c4aa-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "1"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fd298c0e-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fdc44ee2-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:fe4844d6-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Session,
+        prov:Activity ;
+    bids:session_number "2"^^xsd:string ;
+    dct:isPartOf niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 .
+
+niiri:a1538fe6-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50035"^^xsd:string .
+
+niiri:a3b3620c-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50049"^^xsd:string .
+
+niiri:aaff7042-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50002"^^xsd:string .
+
+niiri:b2b3b5fa-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50047"^^xsd:string .
+
+niiri:b32f3f5e-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50048"^^xsd:string .
+
+niiri:cce31378-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50007"^^xsd:string .
+
+niiri:cf3004a6-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50028"^^xsd:string .
+
+niiri:dfd5b64e-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50029"^^xsd:string .
+
+niiri:e0aa6d58-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50031"^^xsd:string .
+
+niiri:e1dd4cfe-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50038"^^xsd:string .
+
+niiri:e4fa8154-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50051"^^xsd:string .
+
+niiri:eb98425e-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50005"^^xsd:string .
+
+niiri:ed835c48-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50013"^^xsd:string .
+
+niiri:ee0990f6-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50026"^^xsd:string .
+
+niiri:f45c48e0-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50050"^^xsd:string .
+
+niiri:fc36a4d0-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50006"^^xsd:string .
+
+niiri:fe8d64f8-7a1c-11f0-9ae2-6c92cf1f4c20 a prov:Agent,
+        prov:Person ;
+    ndar:src_subject_id "50027"^^xsd:string .
+
+niiri:c8e9deaa-7a1c-11f0-9ae2-6c92cf1f4c20 a nidm:Project,
+        prov:Activity ;
+    dcmitype:title "ABIDE2 - ABIDEII-UPSM_Long"^^xsd:string .
+

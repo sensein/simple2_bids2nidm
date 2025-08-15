@@ -1,0 +1,32 @@
+{
+    "DD(source='ABIDE2_Cophenotype.csv', variable='site_id')": {
+        "label": "Site Identifier",
+        "description": "ABIDE2 site identifier",
+        "source_variable": "site_id",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "valueType": "http://www.w3.org/2001/XMLSchema#string",
+            "minValue": "",
+            "maxValue": "",
+            "unitCode": ""
+        }
+    },
+    "DD(source='ABIDE2_Cophenotype.csv', variable='participant_id')": {
+        "label": "Participant Identifier",
+        "description": "Unique participant identifier",
+        "source_variable": "participant_id",
+        "associatedWith": "NIDM",
+        "responseOptions": {
+            "valueType": "http://www.w3.org/2001/XMLSchema#string",
+            "minValue": "",
+            "maxValue": "",
+            "unitCode": ""
+        },
+        "isAbout": [
+            {
+                "@id": "https://ndar.nih.gov/api/datadictionary/v2/dataelement/src_subject_id",
+                "label": "src_subject_id"
+            }
+        ]
+    }
+}
