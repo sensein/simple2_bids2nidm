@@ -671,6 +671,10 @@
     "maxValue": "NA",
     "minValue": "NA",
     "source_variable": "ados_2_total",
+    "isAbout": {
+        "@id" : "http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00962",
+		"label" : "Autism diagnostic observation schedule"
+    },
     "valueType": "http://www.w3.org/2001/XMLSchema#string"
   },
   "DD(variable='ados_g_comm')": {
@@ -755,6 +759,10 @@
     "maxValue": "",
     "minValue": "",
     "source_variable": "age_at_mprage",
+    "isAbout": {
+        "@id": "http://uri.interlex.org/ilx_0100400",
+		"label": "Age"
+    },
     "valueType": "http://www.w3.org/2001/XMLSchema#float"
   },
   "DD(variable='age_at_scan')": {
@@ -2655,6 +2663,10 @@
     "maxValue": "NA",
     "minValue": "NA",
     "source_variable": "dx_group",
+    "isAbout": { 
+		"@id": "http://ncitt.ncit.nih.gov/Diagnosis",
+		"label": "Diagnosis"
+	},
     "valueType": "http://www.w3.org/2001/XMLSchema#complexType"
   },
   "DD(variable='eye_status_at_scan')": {
@@ -2683,6 +2695,10 @@
     "maxValue": "170",
     "minValue": "30",
     "source_variable": "fiq",
+    "isAbout": {
+        "@id" : "http://uri.interlex.org/base/ilx_0739365",
+		"label" : "full intelligence quotient"
+    },
     "valueType": "http://www.w3.org/2001/XMLSchema#integer"
   },
   "DD(variable='fiq_test_type')": {
@@ -2724,6 +2740,10 @@
     "maxValue": "NA",
     "minValue": "NA",
     "source_variable": "handedness_category",
+    "isAbout": {
+        "@id" : "http://purl.obolibrary.org/obo/PATO_0002201",
+		"label" : "handedness"
+    },
     "valueType": "http://www.w3.org/2001/XMLSchema#complexType"
   },
   "DD(variable='handedness_scores')": {
@@ -2942,6 +2962,10 @@
     "maxValue": "NA",
     "minValue": "NA",
     "source_variable": "pdd_dsm_iv_tr",
+    "isAbout": { 
+		"@id": "http://ncitt.ncit.nih.gov/Diagnosis",
+		"label": "Diagnosis"
+	},
     "valueType": "http://www.w3.org/2001/XMLSchema#string"
   },
   "DD(variable='piq')": {
@@ -2956,6 +2980,10 @@
     "maxValue": "166",
     "minValue": "31",
     "source_variable": "piq",
+    "isAbout": {
+        "@id" : "http://uri.interlex.org/base/ilx_0739363",
+		"label" : "performance intelligence quotient"
+    },
     "valueType": "http://www.w3.org/2001/XMLSchema#integer"
   },
   "DD(variable='piq_test_type')": {
@@ -3147,6 +3175,10 @@
     "maxValue": "NA",
     "minValue": "NA",
     "source_variable": "sex",
+    "isAbout": {
+        "@id" : "http://uri.interlex.org/base/ilx_0101292",
+		"label" : "Biological sex"
+    },
     "valueType": "http://www.w3.org/2001/XMLSchema#complexType"
   },
   "DD(variable='site_id')": {
@@ -3561,6 +3593,10 @@
     "maxValue": "169",
     "minValue": "31",
     "source_variable": "viq",
+    "isAbout": {
+        "@id" : "http://uri.interlex.org/base/ilx_0739359",
+		"label" : "verbal intelligence quotient"
+    },
     "valueType": "http://www.w3.org/2001/XMLSchema#integer"
   },
   "DD(variable='viq_test_type')": {
